@@ -1,0 +1,1394 @@
+{
+  "AL": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:09:36.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:09:36.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:09:36.000Z"
+    }
+  ],
+  "AD": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T22:12:58.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T22:12:58.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T22:12:58.000Z"
+    }
+  ],
+  "AG": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:48:02.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:48:02.000Z"
+    }
+  ],
+  "AR": [
+    {
+      "plan": "Disney+ Estándar con anuncios",
+      "price": "Mensual ARS 9.999 (precio final) ARS 8.263,64 (sin impuestos nacionales) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:20:13.000Z"
+    },
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual ARS 12.299 (precio final) ARS 10.164,46 (sin impuestos nacionales) Seleccionar plan Anual ARS 103.299 (precio final) ARS 85.371,07 (sin impuestos nacionales) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:20:13.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual ARS 18.399 (precio final) ARS 15.205,79 (sin impuestos nacionales) Seleccionar plan Anual ARS 154.499 (precio final) ARS 127.685,12 (sin impuestos nacionales) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:20:13.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar con anuncios ARS 6.999 mensual (precio final) ARS 5.784,30 mensual (sin impuestos nacionales) Disney+ Estándar ARS 7.399 mensual (precio final) ARS 6.114,88 mensual (sin impuestos nacionales) Disney+ Premium ARS 9.200 mensual (precio final) ARS 7.603,31 mensual (sin impuestos nacionales)",
+      "last_published_date": "2025-04-24T20:20:13.000Z"
+    }
+  ],
+  "AU": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: $15.99 Yearly: $159.99 Select plan",
+      "last_published_date": "2025-04-28T22:40:53.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: $20.99 Yearly: $209.99 Select plan",
+      "last_published_date": "2025-04-28T22:40:53.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: $7.99",
+      "last_published_date": "2025-04-28T22:40:53.000Z"
+    }
+  ],
+  "AT": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    }
+  ],
+  "BS": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:48:29.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:48:29.000Z"
+    }
+  ],
+  "BB": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:48:52.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:48:52.000Z"
+    }
+  ],
+  "BE": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-16T00:05:43.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-16T00:05:43.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-16T00:05:43.000Z"
+    }
+  ],
+  "BZ": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:49:32.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:49:32.000Z"
+    }
+  ],
+  "BO": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 11.99 (precio final) Anual: USD 99.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:41.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 16.99 (precio final) Anual: USD 141.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:41.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes (precio final) Disney+ Premium: USD 8.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:41.000Z"
+    }
+  ],
+  "BA": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2024-11-26T00:04:45.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2024-11-26T00:04:45.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2024-11-26T00:04:45.000Z"
+    }
+  ],
+  "BR": [
+    {
+      "plan": "Disney+ Padrão com anúncios",
+      "price": "Mensal: R$ 27,99 (preço final)",
+      "last_published_date": "2025-02-27T16:00:59.000Z"
+    },
+    {
+      "plan": "Disney+ Padrão",
+      "price": "Mensal: R$ 43,90 (preço final) Anual: R$ 368,90 (preço final)",
+      "last_published_date": "2025-02-27T16:00:59.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensal: R$ 62,90 (preço final) Anual: R$ 527,90 (preço final)",
+      "last_published_date": "2025-02-27T16:00:59.000Z"
+    },
+    {
+      "plan": "Membro Extra",
+      "price": "Disney+ Padrão com anúncios: R$ 19,90 mensal (preço final) Disney+ Padrão: R$ 25,90 mensal (preço final) Disney+ Premium: R$ 30,90 mensal (preço final)",
+      "last_published_date": "2025-02-27T16:00:59.000Z"
+    }
+  ],
+  "BG": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:15:36.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:15:36.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:15:36.000Z"
+    }
+  ],
+  "CA": [
+    {
+      "plan": "Disney+ Standard With Ads",
+      "price": "Monthly: CAD $8.99",
+      "last_published_date": "2025-01-15T23:35:30.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: CAD $12.99 Annual: CAD $129.99",
+      "last_published_date": "2025-01-15T23:35:30.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: CAD $15.99 Annual: CAD $159.99",
+      "last_published_date": "2025-01-15T23:35:30.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard With Ads: CAD $6.99 monthly Disney+ Standard: CAD $7.99 monthly Disney+ Premium: CAD $7.99 monthly",
+      "last_published_date": "2025-01-15T23:35:30.000Z"
+    }
+  ],
+  "CL": [
+    {
+      "plan": "Disney+ Estándar con anuncios",
+      "price": "Mensual: CLP 8.490 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:32:59.000Z"
+    },
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: CLP 10.390 (precio final) Seleccionar plan Anual: CLP 87.200 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:32:59.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: CLP 14.190 (precio final) Seleccionar plan Anual: CLP 119.190 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:32:59.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar con anuncios: CLP 5.990 mensual (precio final) Disney+ Estándar: CLP 6.250 mensual (precio final) Disney+ Premium: CLP 7.100 mensual (precio final)",
+      "last_published_date": "2025-04-24T20:32:59.000Z"
+    }
+  ],
+  "CO": [
+    {
+      "plan": "Disney+ Estándar con anuncios",
+      "price": "Mensual: COP 24.900 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:24:49.000Z"
+    },
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: COP 36.900 (precio final) Seleccionar plan Anual: COP 309.900 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:24:49.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: COP 49.900 (precio final) Seleccionar plan Anual: COP 418.900 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:24:49.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar con anuncios: COP 17.900 por mes (precio final) Disney+ Estándar: COP 22.150 mensual (precio final) Disney+ Premium: COP 24.900 mensual (precio final)",
+      "last_published_date": "2025-04-24T20:24:49.000Z"
+    }
+  ],
+  "CR": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 12.59 (podrían aplicar cargos de terceros) Anual: USD 104.99 (podrían aplicar cargos de terceros) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:40.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 16.99 (podrían aplicar cargos de terceros) Anual: USD 141.99 (podrían aplicar cargos de terceros) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:40.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes (podrían aplicar cargos de terceros) Disney+ Premium: USD 8.99 por mes (podrían aplicar cargos de terceros)",
+      "last_published_date": "2024-11-26T00:04:40.000Z"
+    }
+  ],
+  "HR": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:17:01.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:17:01.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:17:01.000Z"
+    }
+  ],
+  "CZ": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 199.00 CZK Annual: 1,990.00 CZK",
+      "last_published_date": "2025-01-21T22:18:18.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 299.00 CZK Annual: 2,990.00 CZK",
+      "last_published_date": "2025-01-21T22:18:18.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: 119.00 CZK",
+      "last_published_date": "2025-01-21T22:18:18.000Z"
+    }
+  ],
+  "DK": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: 49.00 kr",
+      "last_published_date": "2025-01-17T23:50:28.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 89.00 kr Annual: 890.00 kr",
+      "last_published_date": "2025-01-17T23:50:28.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 129.00 kr Annual: 1290.00 kr",
+      "last_published_date": "2025-01-17T23:50:28.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: 39.00 kr monthly Disney+ Standard: 49.00 kr monthly Disney+ Premium: 49.00 kr monthly",
+      "last_published_date": "2025-01-17T23:50:28.000Z"
+    }
+  ],
+  "DM": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:50:05.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:50:05.000Z"
+    }
+  ],
+  "DO": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 10.49 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 14.99 (precio final) Anual: USD 124.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 5.99 por mes (precio final) Disney+ Premium: USD 7.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    }
+  ],
+  "EC": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 10.49 (podrían aplicar cargos de terceros) Anual: USD 87.99 (podrían aplicar cargos de terceros) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 14.99 (podrían aplicar cargos de terceros) Anual: USD 124.99 (podrían aplicar cargos de terceros) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 5.99 por mes (podrían aplicar cargos de terceros) Disney+ Premium: USD 7.99 por mes (podrían aplicar cargos de terceros)",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    }
+  ],
+  "SV": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 10.49 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 14.99 (precio final) Anual: USD 124.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 5.99 por mes (precio final) Disney+ Premium: USD 7.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    }
+  ],
+  "EE": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:20:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:20:39.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:20:39.000Z"
+    }
+  ],
+  "FI": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-17T23:52:19.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-17T23:52:19.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-17T23:52:19.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: €4.99 monthly Disney+ Standard: €5.99 monthly Disney+ Premium: €5.99 monthly",
+      "last_published_date": "2025-01-17T23:52:19.000Z"
+    }
+  ],
+  "FR": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-17T23:52:58.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-17T23:52:58.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-17T23:52:58.000Z"
+    }
+  ],
+  "DE": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: €4.99 monthly Disney+ Standard: €5.99 monthly Disney+ Premium: €5.99 monthly",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    }
+  ],
+  "GI": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: £4.99",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: £7.99 Annual: £79.90",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: £10.99 Annual: £109.90",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: £3 .99 monthly Disney+ Standard: £4 .99 monthly Disney+ Premium: £4 .99 monthly",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    }
+  ],
+  "GR": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T22:22:06.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T22:22:06.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T22:22:06.000Z"
+    }
+  ],
+  "GD": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:50:33.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:50:33.000Z"
+    }
+  ],
+  "GT": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 10.49 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:56.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 14.99 (precio final) Anual: USD 124.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:56.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 5.99 por mes (precio final) Disney+ Premium: USD 7.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:56.000Z"
+    }
+  ],
+  "GY": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:51:03.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:51:03.000Z"
+    }
+  ],
+  "HT": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensuel : 12,99 USD (taxes comprises) Annuel : 108,99 USD (taxes comprises) Disponible sur DisneyPlus.com et par le biais de certains partenaires tiers",
+      "last_published_date": "2025-01-22T22:54:28.000Z"
+    },
+    {
+      "plan": "Abonné supplémentaire",
+      "price": "Disney+ Premium : 6,99 USD (taxes comprises)",
+      "last_published_date": "2025-01-22T22:54:28.000Z"
+    }
+  ],
+  "HN": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 10.49 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 14.99 (precio final) Anual: USD 124.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 5.99 por mes (precio final) Disney+ Premium: USD 7.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    }
+  ],
+  "HK": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "HK$81/month or HK$810/year Select plan",
+      "last_published_date": "2025-03-31T16:33:02.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "HK$99/month or HK$990/year Select plan",
+      "last_published_date": "2025-03-31T16:33:02.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "HK$28/month",
+      "last_published_date": "2025-03-31T16:33:02.000Z"
+    }
+  ],
+  "HU": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 2,490.00 HUF Annual: 24,900.00 HUF",
+      "last_published_date": "2025-01-21T22:22:54.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 3,890.00 HUF Annual: 38,900.00 HUF",
+      "last_published_date": "2025-01-21T22:22:54.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: 1,490.00 HUF",
+      "last_published_date": "2025-01-21T22:22:54.000Z"
+    }
+  ],
+  "IS": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-17T23:55:28.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-17T23:55:28.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-17T23:55:28.000Z"
+    }
+  ],
+  "IE": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T21:51:28.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T21:51:28.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T21:51:28.000Z"
+    }
+  ],
+  "IT": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T21:52:00.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T21:52:00.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T21:52:00.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: €4.99 monthly Disney+ Standard: €5.99 monthly Disney+ Premium: €5.99 monthly",
+      "last_published_date": "2025-01-21T21:52:00.000Z"
+    }
+  ],
+  "JM": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:51:31.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:51:31.000Z"
+    }
+  ],
+  "JP": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "1,140 JPY/month or 11,400 JPY/year*** Select plan",
+      "last_published_date": "2025-03-31T16:01:00.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "1,520 JPY/month or 15,200 JPY/year*** If you are billed through Apple, the price of your annual subscription will be 15,400 JPY/year. Select plan",
+      "last_published_date": "2025-03-31T16:01:00.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "490 JPY/month",
+      "last_published_date": "2025-03-31T16:01:00.000Z"
+    }
+  ],
+  "LV": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:24:31.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:24:31.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:24:31.000Z"
+    }
+  ],
+  "LI": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: CHF 14.90 Annual: CHF 149.00",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: CHF 20.90 Annual: CHF 209.90",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: CHF 8.90",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    }
+  ],
+  "LT": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2024-11-26T00:04:53.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2024-11-26T00:04:53.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2024-11-26T00:04:53.000Z"
+    }
+  ],
+  "LU": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T21:53:26.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T21:53:26.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T21:53:26.000Z"
+    }
+  ],
+  "MT": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T22:26:28.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T22:26:28.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T22:26:28.000Z"
+    }
+  ],
+  "MX": [
+    {
+      "plan": "Disney+ Estándar con anuncios",
+      "price": "Mensual: MXN 149 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:46:45.000Z"
+    },
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: MXN 249 (precio final) Seleccionar plan Anual: MXN 2,089 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:46:45.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: MXN 319 (precio final) Seleccionar plan Anual: MXN 2,679 (precio final) Seleccionar plan",
+      "last_published_date": "2025-04-24T20:46:45.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar con anuncios: MXN 109 mensual (precio final) Disney+ Estándar: MXN 149 mensual (precio final) Disney+ Premium: MXN 159 mensual (precio final)",
+      "last_published_date": "2025-04-24T20:46:45.000Z"
+    }
+  ],
+  "MC": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T21:55:28.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T21:55:28.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T21:55:28.000Z"
+    }
+  ],
+  "ME": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:27:07.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:27:07.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:27:07.000Z"
+    }
+  ],
+  "NL": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T21:57:14.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T21:57:14.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T21:57:14.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: €4.99 monthly Disney+ Standard: €5.99 monthly Disney+ Premium: €5.99 monthly",
+      "last_published_date": "2025-01-21T21:57:14.000Z"
+    }
+  ],
+  "NZ": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: $16.99 Yearly: $169.99 Select plan",
+      "last_published_date": "2025-03-25T19:32:30.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: $21.99 Yearly: $219.99 Select plan",
+      "last_published_date": "2025-03-25T19:32:30.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: $8.99",
+      "last_published_date": "2025-03-25T19:32:30.000Z"
+    }
+  ],
+  "NI": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 11.99 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 16.99 (precio final) Anual: USD 141.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes (precio final) Disney+ Premium: USD 8.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    }
+  ],
+  "MK": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:27:46.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:27:46.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:27:46.000Z"
+    }
+  ],
+  "NO": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: 59.00 NOK",
+      "last_published_date": "2025-01-21T21:59:16.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 99.00 NOK Annual: 990.00 NOK",
+      "last_published_date": "2025-01-21T21:59:16.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 139.00 NOK Annual: 1390.00 NOK",
+      "last_published_date": "2025-01-21T21:59:16.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: 49.00 NOK monthly Disney+ Standard: 59.00 NOK monthly Disney+ Premium: 59.00 NOK monthly",
+      "last_published_date": "2025-01-21T21:59:16.000Z"
+    }
+  ],
+  "PA": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 11.99 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 16.99 (precio final) Anual: USD 141.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes (precio final) Disney+ Premium: USD 8.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    }
+  ],
+  "PY": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 11.99 EN-US (third party charges may apply) Anual: USD 87.99 EN-US (third party charges may apply) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 16.99 EN-US (third party charges may apply) Anual: USD 141.99 EN-US (third party charges may apply) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes EN-US (third party charges may apply) Disney+ Premium: USD 8.99 por mes EN-US (third party charges may apply)",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    }
+  ],
+  "PE": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: PEN 45.90 (precio final) Anual: PEN 385.90 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2025-01-27T05:00:00.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: PEN 65.90 (precio final) Anual: PEN 553.90 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2025-01-27T05:00:00.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: PEN 26.90 por mes (precio final) Disney+ Premium: PEN 32.90 por mes (precio final)",
+      "last_published_date": "2025-01-27T05:00:00.000Z"
+    }
+  ],
+  "PL": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 29.99 zł Annual: 299.99 zł",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 49.99 zł Annual: 499.99 zł",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: 17.99 zł",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    }
+  ],
+  "PT": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T22:00:28.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T22:00:28.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T22:00:28.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: €4.99 monthly Disney+ Standard: €5.99 monthly Disney+ Premium: €5.99 monthly",
+      "last_published_date": "2025-01-21T22:00:28.000Z"
+    }
+  ],
+  "RO": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 29.99 Lei Annual: 299.90 Lei",
+      "last_published_date": "2025-01-21T22:30:37.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 49.99 Lei Annual: 499.90 Lei",
+      "last_published_date": "2025-01-21T22:30:37.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: 17.99 Lei",
+      "last_published_date": "2025-01-21T22:30:37.000Z"
+    }
+  ],
+  "RS": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:31:37.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:31:37.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:31:37.000Z"
+    }
+  ],
+  "SG": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "S$15.98/month or S$159.98/year",
+      "last_published_date": "2025-01-22T00:14:55.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "S$18.98/month or S$189.98/year",
+      "last_published_date": "2025-01-22T00:14:55.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "S$6.98/month",
+      "last_published_date": "2025-01-22T00:14:55.000Z"
+    }
+  ],
+  "SK": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:39:32.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:39:32.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:39:32.000Z"
+    }
+  ],
+  "SI": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €8.99 Annual: €89.90",
+      "last_published_date": "2025-01-21T22:41:12.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €11.99 Annual: €119.90",
+      "last_published_date": "2025-01-21T22:41:12.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly: €4.99",
+      "last_published_date": "2025-01-21T22:41:12.000Z"
+    }
+  ],
+  "KR": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "9,900 KRW/month or 99,000 KRW/year",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "13,900 KRW/month or 139,000 KRW/year",
+      "last_published_date": "2025-02-27T23:45:50.000Z"
+    }
+  ],
+  "ES": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €5.99",
+      "last_published_date": "2025-01-21T22:01:23.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: €9.99 Annual: €99.90",
+      "last_published_date": "2025-01-21T22:01:23.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: €13.99 Annual: €139.90",
+      "last_published_date": "2025-01-21T22:01:23.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: €4.99 monthly Disney+ Standard: €5.99 monthly Disney+ Premium: €5.99 monthly",
+      "last_published_date": "2025-01-21T22:01:23.000Z"
+    }
+  ],
+  "KN": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:52:16.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:52:16.000Z"
+    }
+  ],
+  "LC": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:52:48.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:52:48.000Z"
+    }
+  ],
+  "VC": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:53:12.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:53:12.000Z"
+    }
+  ],
+  "SR": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Maandelijks: 12,99 USD (inclusief btw) Jaarlijks: 108,99 USD (inclusief btw) Beschikbaar via DisneyPlus.com en geselecteerde externe partners",
+      "last_published_date": "2025-01-22T22:54:52.000Z"
+    },
+    {
+      "plan": "Extra gebruiker",
+      "price": "Disney+ Premium: 6,99 USD (inclusief btw)",
+      "last_published_date": "2025-01-22T22:54:52.000Z"
+    }
+  ],
+  "SE": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: 59.00 SEK",
+      "last_published_date": "2025-01-21T22:02:20.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: 99.00 SEK Annual: 990.00 SEK",
+      "last_published_date": "2025-01-21T22:02:20.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: 139.00 SEK Annual: 1390.00 SEK",
+      "last_published_date": "2025-01-21T22:02:20.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: 49.00 SEK monthly Disney+ Standard: 59.00 SEK monthly Disney+ Premium: 59.00 SEK monthly",
+      "last_published_date": "2025-01-21T22:02:20.000Z"
+    }
+  ],
+  "CH": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: CHF 7.90",
+      "last_published_date": "2025-01-21T22:03:14.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: CHF 14.90 Annual: CHF 149.90",
+      "last_published_date": "2025-01-21T22:03:14.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: CHF 20.90 Annual: CHF 209.00",
+      "last_published_date": "2025-01-21T22:03:14.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: CHF 6.90 monthly Disney+ Standard: CHF 7.90 monthly Disney+ Premium: CHF 7.90 monthly",
+      "last_published_date": "2025-01-21T22:03:14.000Z"
+    }
+  ],
+  "TW": [
+    {
+      "plan": "Disney+ Standard",
+      "price": "NTD 270/month or NTD 2,790/year",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "NTD 320/month or NTD 3,280/year",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "NTD 80/month",
+      "last_published_date": "2024-11-26T00:04:58.000Z"
+    }
+  ],
+  "TT": [
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: USD 12.99 (including taxes) Annual: USD 108.99 (including taxes) Available through DisneyPlus.com and selected third-party partners",
+      "last_published_date": "2025-01-22T22:53:44.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Premium: USD 6.99 (including taxes)",
+      "last_published_date": "2025-01-22T22:53:44.000Z"
+    }
+  ],
+  "TR": [
+    {
+      "plan": "Disney+ With Ads",
+      "price": "Monthly: 164.90 TL Annual: 1,649.00 TL",
+      "last_published_date": "2025-02-26T17:09:37.000Z"
+    },
+    {
+      "plan": "Disney+ Without Ads",
+      "price": "Monthly: 349.90 TL Annual: 3499.00 TL",
+      "last_published_date": "2025-02-26T17:09:37.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ With Ads: 134.90 TL monthly Disney+ Without Ads: 164.90 TL monthly",
+      "last_published_date": "2025-02-26T17:09:37.000Z"
+    }
+  ],
+  "UK": [
+    {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: £4.99",
+      "last_published_date": "2025-01-21T22:08:32.000Z"
+    },
+    {
+      "plan": "Disney+ Standard",
+      "price": "Monthly: £8.99 Annual: £89.90",
+      "last_published_date": "2025-01-21T22:08:32.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: £12.99 Annual: £129.90",
+      "last_published_date": "2025-01-21T22:08:32.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Standard with Ads: £3.99 monthly Disney+ Standard: £4.99 monthly Disney+ Premium: £4.99 monthly",
+      "last_published_date": "2025-01-21T22:08:32.000Z"
+    }
+  ],
+  "US": [
+    {
+      "plan": "Disney+ Basic",
+      "price": "Monthly: $9.99 Select plan",
+      "last_published_date": "2025-04-29T20:34:22.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Monthly: $15.99 Select plan Annual: $159.99 Select plan",
+      "last_published_date": "2025-04-29T20:34:22.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Disney+ Basic: $6.99 monthly Disney+ Premium: $9.99 monthly Disney+, Hulu Bundle Basic : $7.99 monthly Disney+, Hulu Bundle Premium : $10.99 monthly Disney+, Hulu, ESPN+ Bundle Basic : $11.99 monthly Disney+, Hulu, ESPN+ Bundle Premium : $14.99 monthly",
+      "last_published_date": "2025-04-29T20:34:22.000Z"
+    }
+  ],
+  "UY": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 11.99 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 26.99 (precio final) Anual: USD 249.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes (precio final) Disney+ Premium: USD 19.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:39.000Z"
+    }
+  ],
+  "VE": [
+    {
+      "plan": "Disney+ Estándar",
+      "price": "Mensual: USD 11.99 (precio final) Anual: USD 87.99 (precio final) Disponible a través de DisneyPlus.com y de socios de facturación seleccionados",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    },
+    {
+      "plan": "Disney+ Premium",
+      "price": "Mensual: USD 16.99 (precio final) Anual: USD 141.99 (precio final) Disponible a través de DisneyPlus.com y de socios externos seleccionados",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    },
+    {
+      "plan": "Miembro Extra",
+      "price": "Disney+ Estándar: USD 6.99 por mes (precio final) Disney+ Premium: USD 8.99 por mes (precio final)",
+      "last_published_date": "2024-11-26T00:04:38.000Z"
+    }
+  ]
+}
