@@ -313,7 +313,7 @@ def extract_prices_and_currency(price_text, country_details):
 
     # Fallback for formats like "HK$81/month or HK$810/year"
     if not prices or len(prices) < 2:
-         simple_matches = re.findall(r'([A-Z]{2,3}\$?|[€£$¥])\s?([\d.,]+)\s?/(month|year)', cleaned_text, re.IGNORECASE)
+         simple_matches = re.findall(r'([A-Z]{2,3}\$?|[€£$¥])\s?[\d.,]+\s?/(month|year)', cleaned_text, re.IGNORECASE)
          if len(simple_matches) >= 1 :
              for curr_sym, amount_str, period_str in simple_matches:
                  period_key = 'monthly' if 'month' in period_str.lower() else 'annual'
@@ -356,17 +356,17 @@ def convert_to_cny(amount, currency_code, rates):
         print(f"转换 {amount} {currency_code} 时出错: {e}")
         return None
 
-def sort_by_plan_cny(processed_data, original_data, plan_keyword="Premium"):
-    """按指定套餐的CNY价格从低到高排序国家，并在JSON前面添加最便宜的10个"""
+def sort_by_premium_plan_cny(processed_data):
+    """按“Disney+ Premium”套餐的CNY月度价格从低到高排序国家，并在JSON前面添加最便宜的10个。"""
     countries_with_plan_price = []
     countries_without_plan_price = []
     
     for country_code, country_info in processed_data.items():
         target_plan = None
         
-        # 查找包含关键字的套餐
+        # 精确查找名为“Disney+ Premium”的套餐
         for plan in country_info.get('plans', []):
-            if plan_keyword in plan.get('plan_name', ''):
+            if plan.get('plan_name') == "Disney+ Premium":
                 target_plan = plan
                 break
         
@@ -401,8 +401,8 @@ def sort_by_plan_cny(processed_data, original_data, plan_keyword="Premium"):
             'price_cny': price_cny
         })
         
-    sorted_data[f'_top_10_cheapest_{plan_keyword.lower()}_plans'] = {
-        'description': f'最便宜的10个Disney+ {plan_keyword}套餐 (按月付)',
+    sorted_data['_top_10_cheapest_premium_plans'] = {
+        'description': '最便宜的10个Disney+ Premium套餐 (按月付)',
         'updated_at': time.strftime('%Y-%m-%d'),
         'data': top_10_cheapest
     }
@@ -488,7 +488,7 @@ for country_iso, plans in data.items():
     else: print(f"  未找到 {country_name_cn} ({country_iso}) 的可处理计划。")
 
 # 4. Sort data and add Top 10
-sorted_data = sort_by_plan_cny(processed_data, data, plan_keyword="Premium")
+sorted_data = sort_by_premium_plan_cny(processed_data)
 
 # 5. Output Processed Data
 print(f"正在将处理后的数据保存到 {OUTPUT_JSON_PATH}...")

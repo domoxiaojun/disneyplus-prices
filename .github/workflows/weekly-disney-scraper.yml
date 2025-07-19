@@ -141,9 +141,9 @@ jobs:
         
     - name: Check converter output
       run: |
-        if [ -f "disneyplus_prices_cny_sorted.json" ]; then
+        if [ -f "disneyplus_prices_processed.json" ]; then
           echo "✅ 汇率转换文件生成成功"
-          ls -la disneyplus_prices_cny_sorted.json
+          ls -la disneyplus_prices_processed.json
         else
           echo "❌ 汇率转换文件未生成"
           exit 1
@@ -160,8 +160,8 @@ jobs:
         if [ -f "disneyplus_prices.json" ]; then
           cp disneyplus_prices.json "${ARCHIVE_DIR}/disneyplus_prices_${TIMESTAMP}.json"
         fi
-        if [ -f "disneyplus_prices_cny_sorted.json" ]; then
-          cp disneyplus_prices_cny_sorted.json "${ARCHIVE_DIR}/disneyplus_prices_cny_sorted_${TIMESTAMP}.json"
+        if [ -f "disneyplus_prices_processed.json" ]; then
+          cp disneyplus_prices_processed.json "${ARCHIVE_DIR}/disneyplus_prices_processed_${TIMESTAMP}.json"
         fi
         
     - name: Check for changes
@@ -180,9 +180,9 @@ jobs:
       run: |
         echo "=== 执行摘要 ==="
         echo "日期: $(date +'%Y-%m-%d %H:%M:%S %Z')"
-        if [ -f "disneyplus_prices_cny_sorted.json" ]; then
-          echo "转换后的数据文件大小: $(du -h disneyplus_prices_cny_sorted.json | cut -f1)"
-          echo "文件行数: $(wc -l < disneyplus_prices_cny_sorted.json)"
+        if [ -f "disneyplus_prices_processed.json" ]; then
+          echo "转换后的数据文件大小: $(du -h disneyplus_prices_processed.json | cut -f1)"
+          echo "文件行数: $(wc -l < disneyplus_prices_processed.json)"
         fi
         
     - name: Commit and push changes
@@ -190,7 +190,7 @@ jobs:
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add disneyplus_prices.json disneyplus_prices_cny_sorted.json archive/
+        git add disneyplus_prices.json disneyplus_prices_processed.json archive/
         git commit -m "Update Disney+ prices and archive data for $(date +'%Y-%m-%d')"
         git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
         echo "✅ 数据已提交到仓库"
@@ -202,7 +202,7 @@ jobs:
         name: disney-price-data-${{ github.run_number }}
         path: |
           disneyplus_prices*.json
-          disneyplus_prices_cny_sorted.json
+          disneyplus_prices_processed.json
         retention-days: 30
         
     - name: Job summary
@@ -213,6 +213,6 @@ jobs:
         echo "**爬虫状态:** ${{ steps.scraper.outputs.scraper_status || '失败' }}" >> $GITHUB_STEP_SUMMARY
         echo "**转换状态:** ${{ steps.converter.outputs.converter_status || '失败' }}" >> $GITHUB_STEP_SUMMARY
         echo "**文件变化:** ${{ steps.check_changes.outputs.changes || '否' }}" >> $GITHUB_STEP_SUMMARY
-        if [ -f "disneyplus_prices_cny_sorted.json" ]; then
-          echo "**输出文件大小:** $(du -h disneyplus_prices_cny_sorted.json | cut -f1)" >> $GITHUB_STEP_SUMMARY
+        if [ -f "disneyplus_prices_processed.json" ]; then
+          echo "**输出文件大小:** $(du -h disneyplus_prices_processed.json | cut -f1)" >> $GITHUB_STEP_SUMMARY
         fi
