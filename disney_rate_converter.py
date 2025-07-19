@@ -313,7 +313,7 @@ def extract_prices_and_currency(price_text, country_details):
 
     # Fallback for formats like "HK$81/month or HK$810/year"
     if not prices or len(prices) < 2:
-         simple_matches = re.findall(r'([A-Z]{2,3}\$?|[€£$¥])\s?[\d.,]+\s?/(month|year)', cleaned_text, re.IGNORECASE)
+         simple_matches = re.findall(r'([A-Z]{2,3}\$?|[€£$¥])\s?([\d.,]+)\s?/(month|year)', cleaned_text, re.IGNORECASE)
          if len(simple_matches) >= 1 :
              for curr_sym, amount_str, period_str in simple_matches:
                  period_key = 'monthly' if 'month' in period_str.lower() else 'annual'
