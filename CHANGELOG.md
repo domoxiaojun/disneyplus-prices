@@ -8,6 +8,7 @@
 
 | 年月 | 归档文件 | 变化次数 |
 |------|----------|----------|
+| 2026年02月 | [disney_changelog_2026-02.md](changelog_archive/disney_changelog_2026-02.md) | 4 |
 | 2026年01月 | [disney_changelog_2026-01.md](changelog_archive/disney_changelog_2026-01.md) | 4 |
 | 2025年12月 | [disney_changelog_2025-12.md](changelog_archive/disney_changelog_2025-12.md) | 4 |
 | 2025年11月 | [disney_changelog_2025-11.md](changelog_archive/disney_changelog_2025-11.md) | 5 |
@@ -19,26 +20,8 @@
 
 ## 📅 当前月份记录
 
-### 2026年02月
-
-## 2026-02-22 09:51:29
-
-✅ **无价格变化** - 所有套餐价格保持稳定
-
-
-
-## 2026-02-15 09:55:15
-
-✅ **无价格变化** - 所有套餐价格保持稳定
-
-
-
-## 2026-02-08 10:10:20
-
-✅ **无价格变化** - 所有套餐价格保持稳定
-
-
-## 2026-02-01 09:59:17
+### 2026年03月
+## 2026-03-01 09:57:46
 
 ✅ **无价格变化** - 所有套餐价格保持稳定
 
