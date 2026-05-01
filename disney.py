@@ -158,11 +158,14 @@ import shutil
 
 if __name__ == '__main__':
     all_prices = asyncio.run(main())
-    
+
+    if not all_prices:
+        raise SystemExit("❌ 所有国家抓取失败,results 为空,中止执行")
+
     output_file_latest = 'disneyplus_prices.json'
-    
+
     # 保存最新版本（供转换器使用）
     with open(output_file_latest, 'w', encoding='utf-8') as f:
         json.dump(all_prices, f, ensure_ascii=False, indent=2)
-        
+
     print(f"已写入 {output_file_latest}")

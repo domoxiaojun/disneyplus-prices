@@ -117,17 +117,21 @@ jobs:
         # 运行爬虫
         python disney.py
         echo "scraper_status=success" >> $GITHUB_OUTPUT
-      continue-on-error: true
-        
+
     - name: Check scraper output
       run: |
-        if [ -f "disneyplus_prices.json" ]; then
-          echo "✅ 爬虫数据文件生成成功"
-          ls -la disneyplus_prices*.json
-        else
+        if [ ! -f "disneyplus_prices.json" ]; then
           echo "❌ 爬虫数据文件未生成"
           exit 1
         fi
+        # 校验 JSON 内容非空(空 dict {} 也算失败)
+        COUNTRY_COUNT=$(python -c 'import json; print(len(json.load(open("disneyplus_prices.json"))))')
+        if [ "$COUNTRY_COUNT" = "0" ]; then
+          echo "❌ disneyplus_prices.json 为空,所有国家抓取失败"
+          exit 1
+        fi
+        echo "✅ 爬虫数据文件生成成功,共 $COUNTRY_COUNT 个国家"
+        ls -la disneyplus_prices*.json
         
     - name: Run rate converter
       id: converter

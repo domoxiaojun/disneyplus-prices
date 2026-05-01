@@ -16,6 +16,7 @@ class DisneyPriceChangeDetector:
     def __init__(self):
         self.current_file = "disneyplus_prices_processed.json"
         self.changelog_file = "CHANGELOG.md"
+        self.summary_dir = "summaries"
         
     def find_latest_archive_file(self) -> Optional[str]:
         """查找最新的归档价格文件"""
@@ -274,10 +275,14 @@ class DisneyPriceChangeDetector:
             'changes': changes
         }
         
-        summary_file = f"disney_price_changes_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        summary_file = os.path.join(
+            self.summary_dir,
+            f"disney_price_changes_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+        )
+        os.makedirs(self.summary_dir, exist_ok=True)
         with open(summary_file, 'w', encoding='utf-8') as f:
             json.dump(summary, f, ensure_ascii=False, indent=2)
-        
+
         print(f"✅ 变化摘要已生成: {summary_file}")
         return summary_file
     
@@ -307,7 +312,11 @@ class DisneyPriceChangeDetector:
                 'changes': [],
                 'note': '首次运行或无历史数据，跳过价格对比'
             }
-            summary_file = f"disney_price_changes_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            summary_file = os.path.join(
+                self.summary_dir,
+                f"disney_price_changes_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+            )
+            os.makedirs(self.summary_dir, exist_ok=True)
             with open(summary_file, 'w', encoding='utf-8') as f:
                 json.dump(summary, f, ensure_ascii=False, indent=2)
             print(f"✅ 生成初始摘要文件: {summary_file}")
@@ -319,6 +328,12 @@ class DisneyPriceChangeDetector:
         
         if not old_data or not new_data:
             print("❌ 数据加载失败")
+            return 0, ""
+
+        # 当处理后的数据只剩 _top_10 壳子(没有任何国家维度的 plans),
+        # 说明本轮抓取实际上失败了,跳过对比避免生成误导性的"无变化"摘要。
+        if set(new_data.keys()) <= {"_top_10_cheapest_premium_plans"}:
+            print("❌ 当前 processed 数据为空(仅含 _top_10 壳子),跳过价格对比")
             return 0, ""
         
         # 对比价格
