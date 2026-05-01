@@ -108,11 +108,12 @@ python disney_changelog_archiver.py       # 仅归档CHANGELOG (每月运行)
 
 ## 📁 输出文件
 
-- **`disney_prices_all_countries.json`**: 完整的价格数据，包含所有国家和套餐的详细信息
-- **`disney_prices_cny_sorted.json`**: 按人民币价格排序的简化数据，便于快速查看最便宜的套餐
-- **`CHANGELOG.md`**: 记录所有价格变化，包括新增、删除和价格调整
-- **`archive/YYYY/`**: 按年份归档的历史数据文件
+- **`disneyplus_prices.json`**: 爬虫直接抓取的原始数据,按国家代码分组,每条包含 plan/price/last_published_date
+- **`disneyplus_prices_processed.json`**: 经过汇率转换和标准化后的数据,头部含 `_top_10_cheapest_premium_plans` 排行榜,后接全部国家详细信息
+- **`CHANGELOG.md`**: 记录所有价格变化,包括新增、删除和价格调整
+- **`archive/YYYY/MM/`**: 按年月归档的历史数据(原始 + 处理后两份)
 - **`changelog_archive/`**: 按月份归档的价格变化记录
+- **`summaries/`**: 每次运行生成的价格变化摘要 JSON(已通过 .gitignore 排除,仅由 CI artifact 上传保存 30 天)
 
 ## 📊 CHANGELOG功能
 
