@@ -1,4 +1,3 @@
-import re
 import asyncio
 from typing import Any
 from bs4 import BeautifulSoup
@@ -77,17 +76,32 @@ def get_country_language_localization() -> dict[str, Any]:
 
 
 async def fetch_record_id(browser, locale_code: str) -> str:
+    # 通过拦截客户端真实发出的 loadArticle 请求拿 articleId,
+    # 避免依赖 HTML 字符串里可能被前端改版"染污"的 inline JSON。
     page = await browser.new_page()
+    article_id_holder = {"id": None}
+
+    def on_request(request):
+        if "/apex/execute" not in request.url or request.method != "POST":
+            return
+        try:
+            post_data = request.post_data_json
+            if post_data and post_data.get("method") == "loadArticle":
+                article_id = post_data.get("params", {}).get("articleId")
+                if article_id:
+                    article_id_holder["id"] = article_id
+        except Exception:
+            pass
+
+    page.on("request", on_request)
     try:
         await page.goto(
             f'https://help.disneyplus.com/{locale_code}/article/disneyplus-price',
-            wait_until='domcontentloaded'
+            wait_until='networkidle',
         )
-        html = await page.content()
-        matches = re.findall(r'\{"recordId":"(.*?)"\}', html)
-        if not matches:
-            raise ValueError(f"No recordId found for locale {locale_code}")
-        return matches[0]
+        if not article_id_holder["id"]:
+            raise ValueError(f"未拦截到 loadArticle 请求 for locale {locale_code}")
+        return article_id_holder["id"]
     finally:
         await page.close()
 
