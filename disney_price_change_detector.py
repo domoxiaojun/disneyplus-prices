@@ -17,7 +17,77 @@ class DisneyPriceChangeDetector:
         self.current_file = "disneyplus_prices_processed.json"
         self.changelog_file = "CHANGELOG.md"
         self.summary_dir = "summaries"
-        
+
+    def _archive_sort_key(self, file_path: str) -> str:
+        match = re.search(r'disneyplus_prices_processed_(\d{8})_(\d{6})\.json$', os.path.basename(file_path))
+        if match:
+            return f"{match.group(1)}{match.group(2)}"
+        return ""
+
+    def _parse_cny_value(self, value) -> Optional[float]:
+        if value is None:
+            return None
+        if isinstance(value, (int, float)):
+            return float(value)
+        if isinstance(value, str):
+            match = re.search(r'-?\d+(?:\.\d+)?', value.replace(',', ''))
+            if match:
+                return float(match.group(0))
+        return None
+
+    def _extract_price_entries(self, data: Dict) -> Dict:
+        prices = {}
+
+        for country, country_data in data.items():
+            if str(country).startswith('_') or not isinstance(country_data, dict):
+                continue
+
+            plans = country_data.get('plans', [])
+            if not isinstance(plans, list):
+                continue
+
+            country_name = country_data.get('name_cn') or country_data.get('country_name') or country
+
+            for plan in plans:
+                if not isinstance(plan, dict):
+                    continue
+
+                plan_name = plan.get('plan_name') or plan.get('plan')
+                if not plan_name:
+                    continue
+
+                candidates = [
+                    ('monthly', '月付', plan.get('monthly_price_cny'), plan.get('monthly_price_original'), plan.get('currency_code')),
+                    ('annual', '年付', plan.get('annual_price_cny'), plan.get('annual_price_original'), plan.get('currency_code')),
+                ]
+
+                if 'price_cny' in plan:
+                    candidates.append((
+                        'price',
+                        '',
+                        plan.get('price_cny'),
+                        plan.get('price_original'),
+                        plan.get('currency'),
+                    ))
+
+                for period, period_label, price_cny, price_original, currency in candidates:
+                    parsed_price = self._parse_cny_value(price_cny)
+                    if parsed_price is None:
+                        continue
+
+                    display_plan = f"{plan_name}（{period_label}）" if period_label else plan_name
+                    key = f"{country}_{plan_name}_{period}"
+                    prices[key] = {
+                        'country': country,
+                        'country_name': country_name,
+                        'plan': display_plan,
+                        'price_cny': parsed_price,
+                        'price_original': price_original or 'N/A',
+                        'currency': currency or 'N/A',
+                    }
+
+        return prices
+
     def find_latest_archive_file(self) -> Optional[str]:
         """查找最新的归档价格文件"""
         # 查找archive目录下的所有processed文件
@@ -27,12 +97,18 @@ class DisneyPriceChangeDetector:
         if not archive_files:
             print("没有找到历史归档文件")
             return None
-            
-        # 按文件名中的时间戳排序，获取最新的
-        archive_files.sort(key=lambda x: os.path.basename(x).split('_')[-1])
-        latest_file = archive_files[-1]
-        print(f"找到最新归档文件: {latest_file}")
-        return latest_file
+
+        # 按完整时间戳倒序查找，跳过只有 _top_10 空壳的无效归档。
+        archive_files.sort(key=self._archive_sort_key, reverse=True)
+        for archive_file in archive_files:
+            archive_data = self.load_price_data(archive_file)
+            if self._extract_price_entries(archive_data):
+                print(f"找到最新有效归档文件: {archive_file}")
+                return archive_file
+            print(f"跳过无有效套餐价格的归档文件: {archive_file}")
+
+        print("没有找到包含有效套餐价格的历史归档文件")
+        return None
     
     def load_price_data(self, file_path: str) -> Dict:
         """加载价格数据"""
@@ -49,47 +125,16 @@ class DisneyPriceChangeDetector:
     def compare_prices(self, old_data: Dict, new_data: Dict) -> List[Dict]:
         """对比价格变化"""
         changes = []
-        
-        # 创建以国家-计划为key的字典，便于对比
-        old_prices = {}
-        new_prices = {}
-        
-        # 处理旧数据
-        for country, country_data in old_data.items():
-            if isinstance(country_data, dict) and 'plans' in country_data:
-                for plan in country_data['plans']:
-                    if isinstance(plan, dict) and 'plan' in plan and 'price_cny' in plan:
-                        key = f"{country}_{plan['plan']}"
-                        old_prices[key] = {
-                            'country': country,
-                            'country_name': country_data.get('country_name', country),
-                            'plan': plan['plan'],
-                            'price_cny': plan['price_cny'],
-                            'price_original': plan.get('price_original', 'N/A'),
-                            'currency': plan.get('currency', 'N/A')
-                        }
-        
-        # 处理新数据
-        for country, country_data in new_data.items():
-            if isinstance(country_data, dict) and 'plans' in country_data:
-                for plan in country_data['plans']:
-                    if isinstance(plan, dict) and 'plan' in plan and 'price_cny' in plan:
-                        key = f"{country}_{plan['plan']}"
-                        new_prices[key] = {
-                            'country': country,
-                            'country_name': country_data.get('country_name', country),
-                            'plan': plan['plan'],
-                            'price_cny': plan['price_cny'],
-                            'price_original': plan.get('price_original', 'N/A'),
-                            'currency': plan.get('currency', 'N/A')
-                        }
+
+        old_prices = self._extract_price_entries(old_data)
+        new_prices = self._extract_price_entries(new_data)
         
         # 对比价格变化
         for key, new_price in new_prices.items():
             if key in old_prices:
                 old_price = old_prices[key]
-                old_cny = float(old_price['price_cny'])
-                new_cny = float(new_price['price_cny'])
+                old_cny = old_price['price_cny']
+                new_cny = new_price['price_cny']
                 
                 if abs(old_cny - new_cny) > 0.01:  # 价格变化超过0.01元
                     change_amount = new_cny - old_cny
@@ -113,7 +158,7 @@ class DisneyPriceChangeDetector:
                     'country': new_price['country'],
                     'country_name': new_price['country_name'],
                     'plan': new_price['plan'],
-                    'new_price_cny': float(new_price['price_cny']),
+                    'new_price_cny': new_price['price_cny'],
                     'price_original': new_price['price_original'],
                     'currency': new_price['currency'],
                     'type': 'new_plan'
@@ -126,7 +171,7 @@ class DisneyPriceChangeDetector:
                     'country': old_price['country'],
                     'country_name': old_price['country_name'],
                     'plan': old_price['plan'],
-                    'old_price_cny': float(old_price['price_cny']),
+                    'old_price_cny': old_price['price_cny'],
                     'price_original': old_price['price_original'],
                     'currency': old_price['currency'],
                     'type': 'removed_plan'
@@ -330,10 +375,12 @@ class DisneyPriceChangeDetector:
             print("❌ 数据加载失败")
             return 0, ""
 
-        # 当处理后的数据只剩 _top_10 壳子(没有任何国家维度的 plans),
-        # 说明本轮抓取实际上失败了,跳过对比避免生成误导性的"无变化"摘要。
-        if set(new_data.keys()) <= {"_top_10_cheapest_premium_plans"}:
-            print("❌ 当前 processed 数据为空(仅含 _top_10 壳子),跳过价格对比")
+        if not self._extract_price_entries(old_data):
+            print("❌ 历史 processed 数据没有可对比的套餐价格")
+            return 0, ""
+
+        if not self._extract_price_entries(new_data):
+            print("❌ 当前 processed 数据没有可对比的套餐价格")
             return 0, ""
         
         # 对比价格

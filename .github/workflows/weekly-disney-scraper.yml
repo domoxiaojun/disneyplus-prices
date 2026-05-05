@@ -25,17 +25,12 @@ jobs:
       uses: actions/checkout@v4
       
     - name: Set up Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.9'
         
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        
     - name: Cache pip dependencies
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: ~/.cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
@@ -51,17 +46,13 @@ jobs:
       env:
         PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
       run: |
-        # 安装基础依赖和虚拟显示器
-        sudo apt-get update
-        sudo apt-get install -y xvfb
         # 显示当前Python和Playwright版本
         echo "Python version: $(python --version)"
-        echo "Playwright version: $(python -c 'import playwright; print(playwright.__version__)')"
-        # 参考官方方式安装依赖
-        npx playwright install-deps
-        # 设置浏览器安装路径并安装所有浏览器
+        PLAYWRIGHT_VERSION=$(python -c 'import importlib.metadata as md; print(md.version("playwright"))')
+        echo "Playwright version: ${PLAYWRIGHT_VERSION}"
+        # 设置浏览器安装路径并安装 Chromium 及其 Linux 依赖
         export PLAYWRIGHT_BROWSERS_PATH=/home/runner/.cache/ms-playwright
-        python -m playwright install
+        python -m playwright install --with-deps chromium
         # 验证安装
         python -c "
         from playwright.sync_api import sync_playwright
@@ -94,13 +85,8 @@ jobs:
         # Playwright 环境变量 - 使用正确的浏览器路径
         PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
         PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
-        # 确保headless模式
-        DISPLAY: ":99"
       run: |
         echo "开始爬取Disney+价格数据..."
-        # 启动虚拟显示器
-        sudo Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
-        sleep 2
         # 检查Playwright浏览器安装状态
         echo "检查Playwright浏览器安装..."
         python -c "
@@ -115,7 +101,7 @@ jobs:
                 print('❌ Chromium executable NOT found')
         "
         # 运行爬虫
-        python disney.py
+        python -u disney.py
         echo "scraper_status=success" >> $GITHUB_OUTPUT
 
     - name: Check scraper output
@@ -124,13 +110,17 @@ jobs:
           echo "❌ 爬虫数据文件未生成"
           exit 1
         fi
-        # 校验 JSON 内容非空(空 dict {} 也算失败)
-        COUNTRY_COUNT=$(python -c 'import json; print(len(json.load(open("disneyplus_prices.json"))))')
-        if [ "$COUNTRY_COUNT" = "0" ]; then
-          echo "❌ disneyplus_prices.json 为空,所有国家抓取失败"
-          exit 1
-        fi
-        echo "✅ 爬虫数据文件生成成功,共 $COUNTRY_COUNT 个国家"
+        python - <<'PY'
+        import json
+        import sys
+        with open("disneyplus_prices.json", encoding="utf-8") as f:
+            data = json.load(f)
+        countries = {k: v for k, v in data.items() if isinstance(v, list)}
+        plan_count = sum(len(plans) for plans in countries.values())
+        if not countries or plan_count == 0:
+            sys.exit("❌ disneyplus_prices.json 没有有效国家套餐数据")
+        print(f"✅ 爬虫数据文件生成成功,共 {len(countries)} 个国家,{plan_count} 个套餐")
+        PY
         ls -la disneyplus_prices*.json
         
     - name: Run rate converter
@@ -141,18 +131,48 @@ jobs:
         echo "开始汇率转换..."
         python disney_rate_converter.py
         echo "converter_status=success" >> $GITHUB_OUTPUT
-      continue-on-error: true
         
     - name: Check converter output
       run: |
-        if [ -f "disneyplus_prices_processed.json" ]; then
-          echo "✅ 汇率转换文件生成成功"
-          ls -la disneyplus_prices_processed.json
-        else
+        if [ ! -f "disneyplus_prices_processed.json" ]; then
           echo "❌ 汇率转换文件未生成"
           exit 1
         fi
+        python - <<'PY'
+        import json
+        import sys
+        with open("disneyplus_prices_processed.json", encoding="utf-8") as f:
+            data = json.load(f)
+        countries = {
+            k: v for k, v in data.items()
+            if not k.startswith("_") and isinstance(v, dict) and isinstance(v.get("plans"), list)
+        }
+        plan_count = sum(len(v["plans"]) for v in countries.values())
+        priced_plan_count = sum(
+            1
+            for v in countries.values()
+            for plan in v["plans"]
+            if plan.get("monthly_price_cny") or plan.get("annual_price_cny")
+        )
+        if not countries or plan_count == 0 or priced_plan_count == 0:
+            sys.exit("❌ disneyplus_prices_processed.json 没有有效转换价格")
+        print(f"✅ 汇率转换文件生成成功,共 {len(countries)} 个国家,{plan_count} 个套餐,{priced_plan_count} 个已转换价格")
+        PY
+        ls -la disneyplus_prices_processed.json
         
+    - name: Detect price changes and generate changelog
+      id: price_changes
+      if: steps.scraper.outputs.scraper_status == 'success' && steps.converter.outputs.converter_status == 'success'
+      run: |
+        echo "🔍 开始检测 Disney+ 价格变化..."
+        python disney_price_change_detector.py
+
+        # 检查脚本执行结果并设置默认值
+        if [ ! -f "$GITHUB_OUTPUT" ] || ! grep -q "changes_count=" "$GITHUB_OUTPUT" 2>/dev/null; then
+          echo "changes_count=0" >> $GITHUB_OUTPUT
+          echo "summary_file=" >> $GITHUB_OUTPUT
+        fi
+
     - name: Archive data with timestamp
       if: steps.scraper.outputs.scraper_status == 'success' && steps.converter.outputs.converter_status == 'success'
       run: |
@@ -168,20 +188,6 @@ jobs:
           cp disneyplus_prices_processed.json "${ARCHIVE_DIR}/disneyplus_prices_processed_${TIMESTAMP}.json"
         fi
         echo "归档完成，文件保存在: ${ARCHIVE_DIR}"
-        
-    - name: Detect price changes and generate changelog
-      id: price_changes
-      if: steps.scraper.outputs.scraper_status == 'success' && steps.converter.outputs.converter_status == 'success'
-      run: |
-        echo "🔍 开始检测 Disney+ 价格变化..."
-        python disney_price_change_detector.py
-        
-        # 检查脚本执行结果并设置默认值
-        if [ ! -f "$GITHUB_OUTPUT" ] || ! grep -q "changes_count=" "$GITHUB_OUTPUT" 2>/dev/null; then
-          echo "changes_count=0" >> $GITHUB_OUTPUT
-          echo "summary_file=" >> $GITHUB_OUTPUT
-        fi
-      continue-on-error: true
         
     - name: Check for changes
       id: check_changes
@@ -252,13 +258,13 @@ jobs:
           disneyplus_prices_processed.json
           CHANGELOG.md
           changelog_archive/
-          disney_price_changes_summary_*.json
+          summaries/
         retention-days: 30
         
     - name: Job summary
       if: always()
       run: |
-        echo "## � Disney+ 价格爬虫执行报告" >> $GITHUB_STEP_SUMMARY
+        echo "## Disney+ 价格爬虫执行报告" >> $GITHUB_STEP_SUMMARY
         echo "**执行时间:** $(date +'%Y-%m-%d %H:%M:%S %Z')" >> $GITHUB_STEP_SUMMARY
         echo "**爬虫状态:** ${{ steps.scraper.outputs.scraper_status || '失败' }}" >> $GITHUB_STEP_SUMMARY
         echo "**转换状态:** ${{ steps.converter.outputs.converter_status || '失败' }}" >> $GITHUB_STEP_SUMMARY

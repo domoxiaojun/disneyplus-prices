@@ -79,7 +79,7 @@ async def fetch_record_id(browser, locale_code: str) -> str:
     # 通过拦截客户端真实发出的 loadArticle 请求拿 articleId,
     # 避免依赖 HTML 字符串里可能被前端改版"染污"的 inline JSON。
     page = await browser.new_page()
-    article_id_holder = {"id": None}
+    article_id_future = asyncio.get_running_loop().create_future()
 
     def on_request(request):
         if "/apex/execute" not in request.url or request.method != "POST":
@@ -88,8 +88,8 @@ async def fetch_record_id(browser, locale_code: str) -> str:
             post_data = request.post_data_json
             if post_data and post_data.get("method") == "loadArticle":
                 article_id = post_data.get("params", {}).get("articleId")
-                if article_id:
-                    article_id_holder["id"] = article_id
+                if article_id and not article_id_future.done():
+                    article_id_future.set_result(article_id)
         except Exception:
             pass
 
@@ -97,11 +97,12 @@ async def fetch_record_id(browser, locale_code: str) -> str:
     try:
         await page.goto(
             f'https://help.disneyplus.com/{locale_code}/article/disneyplus-price',
-            wait_until='networkidle',
+            wait_until='domcontentloaded',
         )
-        if not article_id_holder["id"]:
+        try:
+            return await asyncio.wait_for(article_id_future, timeout=15)
+        except asyncio.TimeoutError:
             raise ValueError(f"未拦截到 loadArticle 请求 for locale {locale_code}")
-        return article_id_holder["id"]
     finally:
         await page.close()
 
@@ -112,6 +113,7 @@ async def main():
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
+        record_ids_by_locale: dict[str, str] = {}
 
         for country_code, info in loc_map.items():
             # 所有可用语言选项
@@ -127,7 +129,9 @@ async def main():
             master_label = lan['masterLabel']
             try:
                 # 获取 recordId
-                record_id = await fetch_record_id(browser, locale_code)
+                if locale_code not in record_ids_by_locale:
+                    record_ids_by_locale[locale_code] = await fetch_record_id(browser, locale_code)
+                record_id = record_ids_by_locale[locale_code]
                 # 请求文章 JSON
                 price_json = get_price_json(record_id, master_label, country_code, locale_code)
 
