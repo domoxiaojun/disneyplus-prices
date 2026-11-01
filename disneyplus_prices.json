@@ -98,19 +98,19 @@
   ],
   "AT": [
     {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: €6.99 Select plan",
+      "last_published_date": "2026-10-28T15:59:04.000Z"
+    },
+    {
       "plan": "Disney+ Standard",
       "price": "Monthly: €10.99 Select plan Annual: €109.90 Select plan",
-      "last_published_date": "2026-07-27T16:45:39.000Z"
+      "last_published_date": "2026-10-28T15:59:04.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: €15.99 Select plan Annual: €159.90 Select plan",
-      "last_published_date": "2026-07-27T16:45:39.000Z"
-    },
-    {
-      "plan": "Extra Member",
-      "price": "Monthly: €6.99",
-      "last_published_date": "2026-07-27T16:45:39.000Z"
+      "last_published_date": "2026-10-28T15:59:04.000Z"
     }
   ],
   "BS": [
@@ -1197,19 +1197,19 @@
   ],
   "PL": [
     {
+      "plan": "Disney+ Standard with Ads",
+      "price": "Monthly: 24.99 zł Select plan",
+      "last_published_date": "2026-10-28T15:59:12.000Z"
+    },
+    {
       "plan": "Disney+ Standard",
       "price": "Monthly: 34.99 zł Select plan Annual: 349.90 zł Select plan",
-      "last_published_date": "2026-05-04T20:17:25.000Z"
+      "last_published_date": "2026-10-28T15:59:12.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: 59.99 zł Select plan Annual: 599.90 zł Select plan",
-      "last_published_date": "2026-05-04T20:17:25.000Z"
-    },
-    {
-      "plan": "Extra Member",
-      "price": "Monthly: 20.99 zł",
-      "last_published_date": "2026-05-04T20:17:25.000Z"
+      "last_published_date": "2026-10-28T15:59:12.000Z"
     }
   ],
   "PT": [
@@ -1348,33 +1348,33 @@
   "KR": [
     {
       "plan": "Disney+ Standard with Ads",
-      "price": "7,000 KRW/month Select a plan",
-      "last_published_date": "2026-10-19T15:00:22.000Z"
+      "price": "7,000 KRW/month",
+      "last_published_date": "2026-10-29T16:00:17.000Z"
     },
     {
       "plan": "Disney+ Standard",
-      "price": "9,900 KRW/month Select plan 99,000 KRW/year Select plan",
-      "last_published_date": "2026-10-19T15:00:22.000Z"
+      "price": "11,500 KRW/month Select plan 115,000 KRW/year Select plan",
+      "last_published_date": "2026-10-29T16:00:17.000Z"
     },
     {
       "plan": "Disney+ Premium",
-      "price": "13,900 KRW/month Select plan 139,000 KRW/year Select plan",
-      "last_published_date": "2026-10-19T15:00:22.000Z"
+      "price": "16,500 KRW/month Select plan 165,000 KRW/year Select plan",
+      "last_published_date": "2026-10-29T16:00:17.000Z"
     },
     {
       "plan": "Extra Member",
-      "price": "4,000 KRW/month",
-      "last_published_date": "2026-10-19T15:00:22.000Z"
+      "price": "Disney+ Standard and Disney+ Premium: 5,000 KRW/month",
+      "last_published_date": "2026-10-29T16:00:17.000Z"
     },
     {
       "plan": "Disney+ TVING Bundle",
       "price": "18,000 KRW/month Select bundle plan",
-      "last_published_date": "2026-10-19T15:00:22.000Z"
+      "last_published_date": "2026-10-29T16:00:17.000Z"
     },
     {
       "plan": "Disney+ TVING Wavve Bundle",
       "price": "21,500 KRW/month Select bundle plan",
-      "last_published_date": "2026-10-19T15:00:22.000Z"
+      "last_published_date": "2026-10-29T16:00:17.000Z"
     }
   ],
   "ES": [
