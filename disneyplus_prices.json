@@ -100,17 +100,22 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: €6.99 Select plan",
-      "last_published_date": "2026-10-28T15:59:04.000Z"
+      "last_published_date": "2026-11-10T16:04:14.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: €10.99 Select plan Annual: €109.90 Select plan",
-      "last_published_date": "2026-10-28T15:59:04.000Z"
+      "last_published_date": "2026-11-10T16:04:14.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: €15.99 Select plan Annual: €159.90 Select plan",
-      "last_published_date": "2026-10-28T15:59:04.000Z"
+      "last_published_date": "2026-11-10T16:04:14.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly (Standard with Ads): €5.99 Monthly (Standard or Premium): €6.99",
+      "last_published_date": "2026-11-10T16:04:14.000Z"
     }
   ],
   "BS": [
@@ -211,22 +216,22 @@
     {
       "plan": "Disney+ Padrão com anúncios",
       "price": "Mensal: R$ 29,90 (incluindo impostos)",
-      "last_published_date": "2026-10-21T16:58:37.000Z"
+      "last_published_date": "2026-11-12T21:06:53.000Z"
     },
     {
       "plan": "Disney+ Padrão",
       "price": "Mensal: R$ 49,90 (incluindo impostos) Anual: R$ 34 por mês** (incluindo impostos)",
-      "last_published_date": "2026-10-21T16:58:37.000Z"
+      "last_published_date": "2026-11-12T21:06:53.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Mensal: R$ 69,90 (incluindo impostos) Anual: R$ 49 por mês** (incluindo impostos)",
-      "last_published_date": "2026-10-21T16:58:37.000Z"
+      "last_published_date": "2026-11-12T21:06:53.000Z"
     },
     {
       "plan": "Membro Extra",
       "price": "Disney+ Padrão com anúncios: R$ 20,90 mensal (incluindo impostos) Disney+ Padrão: R$ 29,90 mensal (incluindo impostos) Disney+ Premium: R$ 34,90 mensal (incluindo impostos)",
-      "last_published_date": "2026-10-21T16:58:37.000Z"
+      "last_published_date": "2026-11-12T21:06:53.000Z"
     }
   ],
   "BG": [
@@ -402,22 +407,22 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: 79.00 kr Select plan",
-      "last_published_date": "2026-10-19T16:11:08.000Z"
+      "last_published_date": "2026-11-02T21:15:13.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: 119.00 kr Select plan Annual: 1,190.00 kr Select plan",
-      "last_published_date": "2026-10-19T16:11:08.000Z"
+      "last_published_date": "2026-11-02T21:15:13.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: 169.00 kr Select plan Annual: 1,690.00 kr Select plan",
-      "last_published_date": "2026-10-19T16:11:08.000Z"
+      "last_published_date": "2026-11-02T21:15:13.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Disney+ Standard With Ads: 49.00 kr monthly Disney+ Standard: 54.00 kr monthly Disney+ Premium: 54.00 kr monthly",
-      "last_published_date": "2026-10-19T16:11:08.000Z"
+      "last_published_date": "2026-11-02T21:15:13.000Z"
     }
   ],
   "DM": [
@@ -511,22 +516,22 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: €7.99 Select plan",
-      "last_published_date": "2026-10-19T16:14:30.000Z"
+      "last_published_date": "2026-11-02T21:15:59.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: €11.99 Select plan Annual: €119.90 Select plan",
-      "last_published_date": "2026-10-19T16:14:30.000Z"
+      "last_published_date": "2026-11-02T21:15:59.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: €16.99 Select plan Annual: €169.90 Select plan",
-      "last_published_date": "2026-10-19T16:14:30.000Z"
+      "last_published_date": "2026-11-02T21:15:59.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Disney+ Standard with Ads: €5.99 monthly Disney+ Standard: €6.99 monthly Disney+ Premium: €6.99 monthly",
-      "last_published_date": "2026-10-19T16:14:30.000Z"
+      "last_published_date": "2026-11-02T21:15:59.000Z"
     }
   ],
   "FR": [
@@ -720,17 +725,17 @@
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: €11.99 Select plan Annual: €119.90 Select plan",
-      "last_published_date": "2026-10-19T16:13:57.000Z"
+      "last_published_date": "2026-11-02T21:15:35.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: €17.99 Select plan Annual: €179.90 Select plan",
-      "last_published_date": "2026-10-19T16:13:57.000Z"
+      "last_published_date": "2026-11-02T21:15:35.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Monthly: €6.99",
-      "last_published_date": "2026-10-19T16:13:57.000Z"
+      "last_published_date": "2026-11-02T21:15:35.000Z"
     }
   ],
   "ID": [
@@ -1100,22 +1105,22 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: 89.00 NOK Select plan",
-      "last_published_date": "2026-10-19T16:09:53.000Z"
+      "last_published_date": "2026-11-02T21:14:43.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: 129.00 NOK Select plan Annual: 1,290.00 NOK Select plan",
-      "last_published_date": "2026-10-19T16:09:53.000Z"
+      "last_published_date": "2026-11-02T21:14:43.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: 179.00 NOK Select plan Annual: 1,790.00 NOK Select plan",
-      "last_published_date": "2026-10-19T16:09:53.000Z"
+      "last_published_date": "2026-11-02T21:14:43.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Disney+ Standard With Ads: 59.00 NOK monthly Disney+ Standard: 69.00 NOK monthly Disney+ Premium: 69.00 NOK monthly",
-      "last_published_date": "2026-10-19T16:09:53.000Z"
+      "last_published_date": "2026-11-02T21:14:43.000Z"
     }
   ],
   "OM": [
@@ -1199,17 +1204,22 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: 24.99 zł Select plan",
-      "last_published_date": "2026-10-28T15:59:12.000Z"
+      "last_published_date": "2026-11-10T16:04:54.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: 34.99 zł Select plan Annual: 349.90 zł Select plan",
-      "last_published_date": "2026-10-28T15:59:12.000Z"
+      "last_published_date": "2026-11-10T16:04:54.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: 59.99 zł Select plan Annual: 599.90 zł Select plan",
-      "last_published_date": "2026-10-28T15:59:12.000Z"
+      "last_published_date": "2026-11-10T16:04:54.000Z"
+    },
+    {
+      "plan": "Extra Member",
+      "price": "Monthly (Standard with Ads) : 17.99 zł Monthly (Standard or Premium) : 20.99 zł",
+      "last_published_date": "2026-11-10T16:04:54.000Z"
     }
   ],
   "PT": [
@@ -1348,33 +1358,33 @@
   "KR": [
     {
       "plan": "Disney+ Standard with Ads",
-      "price": "7,000 KRW/month",
-      "last_published_date": "2026-10-29T16:00:17.000Z"
+      "price": "7,000 KRW/month Select plan",
+      "last_published_date": "2026-11-16T15:00:48.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "11,500 KRW/month Select plan 115,000 KRW/year Select plan",
-      "last_published_date": "2026-10-29T16:00:17.000Z"
+      "last_published_date": "2026-11-16T15:00:48.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "16,500 KRW/month Select plan 165,000 KRW/year Select plan",
-      "last_published_date": "2026-10-29T16:00:17.000Z"
+      "last_published_date": "2026-11-16T15:00:48.000Z"
     },
     {
       "plan": "Extra Member",
-      "price": "Disney+ Standard and Disney+ Premium: 5,000 KRW/month",
-      "last_published_date": "2026-10-29T16:00:17.000Z"
+      "price": "Disney+ Standard with Ads: 4,000 KRW/month Disney+ Standard and Disney+ Premium: 5,000 KRW/month",
+      "last_published_date": "2026-11-16T15:00:48.000Z"
     },
     {
       "plan": "Disney+ TVING Bundle",
       "price": "18,000 KRW/month Select bundle plan",
-      "last_published_date": "2026-10-29T16:00:17.000Z"
+      "last_published_date": "2026-11-16T15:00:48.000Z"
     },
     {
       "plan": "Disney+ TVING Wavve Bundle",
       "price": "21,500 KRW/month Select bundle plan",
-      "last_published_date": "2026-10-29T16:00:17.000Z"
+      "last_published_date": "2026-11-16T15:00:48.000Z"
     }
   ],
   "ES": [
@@ -1451,22 +1461,22 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: 89.00 SEK Select plan",
-      "last_published_date": "2026-10-19T16:08:22.000Z"
+      "last_published_date": "2026-11-02T21:13:45.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: 129.00 SEK Select plan Annual: 1,290.00 SEK Select plan",
-      "last_published_date": "2026-10-19T16:08:22.000Z"
+      "last_published_date": "2026-11-02T21:13:45.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: 179.00 SEK Select plan Annual: 1,790.00 SEK Select plan",
-      "last_published_date": "2026-10-19T16:08:22.000Z"
+      "last_published_date": "2026-11-02T21:13:45.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Disney+ Standard With Ads: 59.00 SEK monthly Disney+ Standard: 69.00 SEK monthly Disney+ Premium: 69.00 SEK monthly",
-      "last_published_date": "2026-10-19T16:08:22.000Z"
+      "last_published_date": "2026-11-02T21:13:45.000Z"
     }
   ],
   "CH": [
@@ -1567,99 +1577,99 @@
     {
       "plan": "Disney+ Standard with Ads",
       "price": "Monthly: £6.99 Select plan",
-      "last_published_date": "2026-10-19T16:07:39.000Z"
+      "last_published_date": "2026-11-02T21:13:31.000Z"
     },
     {
       "plan": "Disney+ Standard",
       "price": "Monthly: £11.99 Select plan Annual: £119.90 Select plan",
-      "last_published_date": "2026-10-19T16:07:39.000Z"
+      "last_published_date": "2026-11-02T21:13:31.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: £15.99 Select plan Annual: £159.90 Select plan",
-      "last_published_date": "2026-10-19T16:07:39.000Z"
+      "last_published_date": "2026-11-02T21:13:31.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Disney+ Standard With Ads: £4.99 monthly Disney+ Standard: £5.99 monthly Disney+ Premium: £5.99 monthly",
-      "last_published_date": "2026-10-19T16:07:39.000Z"
+      "last_published_date": "2026-11-02T21:13:31.000Z"
     }
   ],
   "US": [
     {
       "plan": "Disney+, Hulu Bundle",
       "price": "Monthly: $12.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu Bundle Premium",
       "price": "Monthly: $21.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, ESPN Select Bundle",
       "price": "Monthly: $21.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, ESPN Select Bundle Premium",
       "price": "Monthly: $32.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+ Premium, Hulu, ESPN Select Bundle Legacy",
       "price": "Monthly: $27.99",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, ESPN Unlimited Bundle",
       "price": "Monthly: $35.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, ESPN Unlimited Bundle Premium",
       "price": "Monthly: $44.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, HBO Max Bundle (With Ads)",
       "price": "Monthly: $21.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, HBO Max Bundle (No Ads)",
       "price": "Monthly: $34.99 Select bundle plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+",
       "price": "Monthly: $12.49 Select plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+ Premium",
       "price": "Monthly: $21.49 Select plan Annual: $214.99 Select plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, ESPN Unlimited Bundle with NFL+ Premium",
       "price": "$45.99 monthly Select plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Disney+, Hulu, ESPN Unlimited Bundle Premium with NFL+ Premium",
       "price": "$54.99 monthly Select plan",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "Extra Member",
       "price": "Disney+ (With Ads): $6.99 monthly Disney+ Premium: $9.99 monthly Disney+, Hulu Bundle: $7.99 monthly Disney+, Hulu Bundle Premium: $10.99 monthly Disney+, Hulu, ESPN Select Bundle: $11.99 monthly Disney+, Hulu, ESPN Select Bundle Premium: $14.99 monthly",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     },
     {
       "plan": "ESPN Unlimited",
       "price": "Monthly: $31.99",
-      "last_published_date": "2026-10-07T15:14:00.000Z"
+      "last_published_date": "2026-11-17T22:18:26.000Z"
     }
   ],
   "UY": [

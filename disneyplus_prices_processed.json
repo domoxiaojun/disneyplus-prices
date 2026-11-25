@@ -1,7 +1,7 @@
 {
   "_top_10_cheapest_premium_plans": {
     "description": "最便宜的10个Disney+ Premium套餐 (按月付)",
-    "updated_at": "2026-11-01",
+    "updated_at": "2026-11-25",
     "data": [
       {
         "rank": 1,
@@ -10,7 +10,7 @@
         "plan_name": "Disney+ Premium",
         "original_price": "TRY 449.90",
         "currency": "TRY",
-        "price_cny": 59.98
+        "price_cny": 59.24
       },
       {
         "rank": 2,
@@ -19,7 +19,7 @@
         "plan_name": "Disney+ Premium",
         "original_price": "TWD 335",
         "currency": "TWD",
-        "price_cny": 68.37
+        "price_cny": 67.38
       },
       {
         "rank": 3,
@@ -28,25 +28,25 @@
         "plan_name": "Disney+ Premium",
         "original_price": "JPY 1670",
         "currency": "JPY",
-        "price_cny": 70.55
+        "price_cny": 69.9
       },
       {
         "rank": 4,
+        "country_code": "BR",
+        "country_name_cn": "巴西",
+        "plan_name": "Disney+ Premium",
+        "original_price": "BRL 69.90",
+        "currency": "BRL",
+        "price_cny": 78.9
+      },
+      {
+        "rank": 5,
         "country_code": "CA",
         "country_name_cn": "加拿大",
         "plan_name": "Disney+ Premium",
         "original_price": "CAD 16.99",
         "currency": "CAD",
-        "price_cny": 80.93
-      },
-      {
-        "rank": 5,
-        "country_code": "KR",
-        "country_name_cn": "韩国",
-        "plan_name": "Disney+ Premium",
-        "original_price": "KRW 16500",
-        "currency": "KRW",
-        "price_cny": 82.38
+        "price_cny": 79.39
       },
       {
         "rank": 6,
@@ -55,16 +55,16 @@
         "plan_name": "Disney+ Premium",
         "original_price": "RON 59.99",
         "currency": "RON",
-        "price_cny": 83.51
+        "price_cny": 81.97
       },
       {
         "rank": 7,
-        "country_code": "BR",
-        "country_name_cn": "巴西",
+        "country_code": "KR",
+        "country_name_cn": "韩国",
         "plan_name": "Disney+ Premium",
-        "original_price": "BRL 69.90",
-        "currency": "BRL",
-        "price_cny": 85.57
+        "original_price": "KRW 16500",
+        "currency": "KRW",
+        "price_cny": 81.98
       },
       {
         "rank": 8,
@@ -73,7 +73,7 @@
         "plan_name": "Disney+ Premium",
         "original_price": "HKD 108",
         "currency": "HKD",
-        "price_cny": 91.64
+        "price_cny": 91.92
       },
       {
         "rank": 9,
@@ -82,7 +82,7 @@
         "plan_name": "Disney+ Premium",
         "original_price": "HUF 4890.00",
         "currency": "HUF",
-        "price_cny": 99.27
+        "price_cny": 95.86
       },
       {
         "rank": 10,
@@ -91,7 +91,7 @@
         "plan_name": "Disney+ Premium",
         "original_price": "PLN 59.99",
         "currency": "PLN",
-        "price_cny": 101.18
+        "price_cny": 97.85
       }
     ]
   },
@@ -102,23 +102,23 @@
         "plan_name": "Disney+ Standard with Ads",
         "currency_code": "TRY",
         "monthly_price_original": "TRY 249.90",
-        "monthly_price_cny": "CNY 33.32",
+        "monthly_price_cny": "CNY 32.90",
         "annual_price_original": "TRY 2499.00",
-        "annual_price_cny": "CNY 333.18"
+        "annual_price_cny": "CNY 329.03"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "TRY",
         "monthly_price_original": "TRY 449.90",
-        "monthly_price_cny": "CNY 59.98",
+        "monthly_price_cny": "CNY 59.24",
         "annual_price_original": "TRY 4499.00",
-        "annual_price_cny": "CNY 599.83"
+        "annual_price_cny": "CNY 592.37"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "TRY",
         "monthly_price_original": "TRY 164.90",
-        "monthly_price_cny": "CNY 21.99",
+        "monthly_price_cny": "CNY 21.71",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -131,23 +131,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "TWD",
         "monthly_price_original": "TWD 285",
-        "monthly_price_cny": "CNY 58.16",
+        "monthly_price_cny": "CNY 57.32",
         "annual_price_original": "TWD 2790",
-        "annual_price_cny": "CNY 569.39"
+        "annual_price_cny": "CNY 561.17"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "TWD",
         "monthly_price_original": "TWD 335",
-        "monthly_price_cny": "CNY 68.37",
+        "monthly_price_cny": "CNY 67.38",
         "annual_price_original": "TWD 3280",
-        "annual_price_cny": "CNY 669.38"
+        "annual_price_cny": "CNY 659.72"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "TWD",
         "monthly_price_original": "TWD 80",
-        "monthly_price_cny": "CNY 16.33",
+        "monthly_price_cny": "CNY 16.09",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -160,7 +160,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "JPY",
         "monthly_price_original": "JPY 1250",
-        "monthly_price_cny": "CNY 52.81",
+        "monthly_price_cny": "CNY 52.32",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -168,7 +168,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "JPY",
         "monthly_price_original": "JPY 1670",
-        "monthly_price_cny": "CNY 70.55",
+        "monthly_price_cny": "CNY 69.90",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -176,182 +176,7 @@
         "plan_name": "Extra Member",
         "currency_code": "JPY",
         "monthly_price_original": "JPY 540",
-        "monthly_price_cny": "CNY 22.81",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "CA": {
-    "name_cn": "加拿大",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 8.99",
-        "monthly_price_cny": "CNY 42.82",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 15.99",
-        "monthly_price_cny": "CNY 76.16",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 16.99",
-        "monthly_price_cny": "CNY 80.93",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 6.99",
-        "monthly_price_cny": "CNY 33.30",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ And Crave With Ads Bundle",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 15.75",
-        "monthly_price_cny": "CNY 75.02",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ And Crave Premium Bundle***",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 29.25",
-        "monthly_price_cny": "CNY 139.33",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ And Crave With Ads, Tsn Premium Bundle",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 31.99",
-        "monthly_price_cny": "CNY 152.38",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ And Crave Premium, Tsn Premium Bundle***",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 41.75",
-        "monthly_price_cny": "CNY 198.87",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard With Ads, Tsn Premium Bundle",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 32.99",
-        "monthly_price_cny": "CNY 157.14",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard, Tsn Premium Bundle***",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 35.99",
-        "monthly_price_cny": "CNY 171.43",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium, Tsn Premium Bundle***",
-        "currency_code": "CAD",
-        "monthly_price_original": "CAD 36.99",
-        "monthly_price_cny": "CNY 176.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "KR": {
-    "name_cn": "韩国",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "KRW",
-        "monthly_price_original": "KRW 7000",
-        "monthly_price_cny": "CNY 34.95",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "KRW",
-        "monthly_price_original": "KRW 11500",
-        "monthly_price_cny": "CNY 57.42",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "KRW",
-        "monthly_price_original": "KRW 16500",
-        "monthly_price_cny": "CNY 82.38",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "KRW",
-        "monthly_price_original": "KRW 5000",
-        "monthly_price_cny": "CNY 24.96",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Tving Bundle",
-        "currency_code": "KRW",
-        "monthly_price_original": "KRW 18000",
-        "monthly_price_cny": "CNY 89.87",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Tving Wavve Bundle",
-        "currency_code": "KRW",
-        "monthly_price_original": "KRW 21500",
-        "monthly_price_cny": "CNY 107.34",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "RO": {
-    "name_cn": "罗马尼亚",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "RON",
-        "monthly_price_original": "RON 34.99",
-        "monthly_price_cny": "CNY 48.71",
-        "annual_price_original": "RON 349.90",
-        "annual_price_cny": "CNY 487.10"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "RON",
-        "monthly_price_original": "RON 59.99",
-        "monthly_price_cny": "CNY 83.51",
-        "annual_price_original": "RON 599.90",
-        "annual_price_cny": "CNY 835.13"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "RON",
-        "monthly_price_original": "RON 20.99",
-        "monthly_price_cny": "CNY 29.22",
+        "monthly_price_cny": "CNY 22.60",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -364,7 +189,7 @@
         "plan_name": "Disney+ Standard with Ads",
         "currency_code": "BRL",
         "monthly_price_original": "BRL 29.90",
-        "monthly_price_cny": "CNY 36.60",
+        "monthly_price_cny": "CNY 33.75",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -372,7 +197,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "BRL",
         "monthly_price_original": "BRL 49.90",
-        "monthly_price_cny": "CNY 61.08",
+        "monthly_price_cny": "CNY 56.33",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -380,7 +205,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "BRL",
         "monthly_price_original": "BRL 69.90",
-        "monthly_price_cny": "CNY 85.57",
+        "monthly_price_cny": "CNY 78.90",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -388,7 +213,182 @@
         "plan_name": "Extra Member",
         "currency_code": "BRL",
         "monthly_price_original": "BRL 20.90",
-        "monthly_price_cny": "CNY 25.58",
+        "monthly_price_cny": "CNY 23.59",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CA": {
+    "name_cn": "加拿大",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 8.99",
+        "monthly_price_cny": "CNY 42.01",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 15.99",
+        "monthly_price_cny": "CNY 74.72",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 16.99",
+        "monthly_price_cny": "CNY 79.39",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 6.99",
+        "monthly_price_cny": "CNY 32.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ And Crave With Ads Bundle",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 15.75",
+        "monthly_price_cny": "CNY 73.60",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ And Crave Premium Bundle***",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 29.25",
+        "monthly_price_cny": "CNY 136.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ And Crave With Ads, Tsn Premium Bundle",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 31.99",
+        "monthly_price_cny": "CNY 149.48",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ And Crave Premium, Tsn Premium Bundle***",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 41.75",
+        "monthly_price_cny": "CNY 195.09",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard With Ads, Tsn Premium Bundle",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 32.99",
+        "monthly_price_cny": "CNY 154.15",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard, Tsn Premium Bundle***",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 35.99",
+        "monthly_price_cny": "CNY 168.17",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium, Tsn Premium Bundle***",
+        "currency_code": "CAD",
+        "monthly_price_original": "CAD 36.99",
+        "monthly_price_cny": "CNY 172.85",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "RO": {
+    "name_cn": "罗马尼亚",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "RON",
+        "monthly_price_original": "RON 34.99",
+        "monthly_price_cny": "CNY 47.81",
+        "annual_price_original": "RON 349.90",
+        "annual_price_cny": "CNY 478.11"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "RON",
+        "monthly_price_original": "RON 59.99",
+        "monthly_price_cny": "CNY 81.97",
+        "annual_price_original": "RON 599.90",
+        "annual_price_cny": "CNY 819.72"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "RON",
+        "monthly_price_original": "RON 20.99",
+        "monthly_price_cny": "CNY 28.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "KR": {
+    "name_cn": "韩国",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 7000",
+        "monthly_price_cny": "CNY 34.78",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 11500",
+        "monthly_price_cny": "CNY 57.14",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 16500",
+        "monthly_price_cny": "CNY 81.98",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 4000",
+        "monthly_price_cny": "CNY 19.87",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Tving Bundle",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 18000",
+        "monthly_price_cny": "CNY 89.43",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Tving Wavve Bundle",
+        "currency_code": "KRW",
+        "monthly_price_original": "KRW 21500",
+        "monthly_price_cny": "CNY 106.82",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -401,23 +401,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "HKD",
         "monthly_price_original": "HKD 88",
-        "monthly_price_cny": "CNY 74.67",
+        "monthly_price_cny": "CNY 74.90",
         "annual_price_original": "HKD 880",
-        "annual_price_cny": "CNY 746.70"
+        "annual_price_cny": "CNY 748.99"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "HKD",
         "monthly_price_original": "HKD 108",
-        "monthly_price_cny": "CNY 91.64",
+        "monthly_price_cny": "CNY 91.92",
         "annual_price_original": "HKD 1080",
-        "annual_price_cny": "CNY 916.41"
+        "annual_price_cny": "CNY 919.22"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "HKD",
         "monthly_price_original": "HKD 28",
-        "monthly_price_cny": "CNY 23.76",
+        "monthly_price_cny": "CNY 23.83",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -430,23 +430,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "HUF",
         "monthly_price_original": "HUF 2990.00",
-        "monthly_price_cny": "CNY 60.70",
+        "monthly_price_cny": "CNY 58.61",
         "annual_price_original": "HUF 29900.00",
-        "annual_price_cny": "CNY 606.99"
+        "annual_price_cny": "CNY 586.11"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "HUF",
         "monthly_price_original": "HUF 4890.00",
-        "monthly_price_cny": "CNY 99.27",
+        "monthly_price_cny": "CNY 95.86",
         "annual_price_original": "HUF 48900.00",
-        "annual_price_cny": "CNY 992.70"
+        "annual_price_cny": "CNY 958.55"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "HUF",
         "monthly_price_original": "HUF 1790.00",
-        "monthly_price_cny": "CNY 36.34",
+        "monthly_price_cny": "CNY 35.09",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -459,7 +459,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "PLN",
         "monthly_price_original": "PLN 24.99",
-        "monthly_price_cny": "CNY 42.15",
+        "monthly_price_cny": "CNY 40.76",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -467,17 +467,25 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "PLN",
         "monthly_price_original": "PLN 34.99",
-        "monthly_price_cny": "CNY 59.01",
+        "monthly_price_cny": "CNY 57.07",
         "annual_price_original": "PLN 349.90",
-        "annual_price_cny": "CNY 590.13"
+        "annual_price_cny": "CNY 570.71"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "PLN",
         "monthly_price_original": "PLN 59.99",
-        "monthly_price_cny": "CNY 101.18",
+        "monthly_price_cny": "CNY 97.85",
         "annual_price_original": "PLN 599.90",
-        "annual_price_cny": "CNY 1011.78"
+        "annual_price_cny": "CNY 978.48"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "PLN",
+        "monthly_price_original": "PLN 17.99",
+        "monthly_price_cny": "CNY 29.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
       }
     ]
   },
@@ -488,7 +496,7 @@
         "plan_name": "Disney+ Standard with Ads",
         "currency_code": "ARS",
         "monthly_price_original": "ARS 11999",
-        "monthly_price_cny": "CNY 52.02",
+        "monthly_price_cny": "CNY 50.27",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -496,7 +504,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "ARS",
         "monthly_price_original": "ARS 15999",
-        "monthly_price_cny": "CNY 69.37",
+        "monthly_price_cny": "CNY 67.03",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -504,7 +512,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "ARS",
         "monthly_price_original": "ARS 23999",
-        "monthly_price_cny": "CNY 104.05",
+        "monthly_price_cny": "CNY 100.54",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -512,7 +520,7 @@
         "plan_name": "Extra Member",
         "currency_code": "ARS",
         "monthly_price_original": "ARS 8390.99",
-        "monthly_price_cny": "CNY 36.38",
+        "monthly_price_cny": "CNY 35.15",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -525,23 +533,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -554,23 +562,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -583,23 +591,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -612,23 +620,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -641,23 +649,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -670,23 +678,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -699,23 +707,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -728,23 +736,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -757,23 +765,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -786,23 +794,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -815,23 +823,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -844,375 +852,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 9.99",
-        "monthly_price_cny": "CNY 74.48",
+        "monthly_price_cny": "CNY 72.94",
         "annual_price_original": "EUR 99.90",
-        "annual_price_cny": "CNY 744.85"
+        "annual_price_cny": "CNY 729.36"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 13.99",
-        "monthly_price_cny": "CNY 104.31",
+        "monthly_price_cny": "CNY 102.14",
         "annual_price_original": "EUR 139.90",
-        "annual_price_cny": "CNY 1043.09"
+        "annual_price_cny": "CNY 1021.40"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "AG": {
-    "name_cn": "安提瓜和巴布达",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "BS": {
-    "name_cn": "巴哈马",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "BB": {
-    "name_cn": "巴巴多斯",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "BZ": {
-    "name_cn": "伯利兹",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "DM": {
-    "name_cn": "多米尼克",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "DO": {
-    "name_cn": "多米尼加共和国",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 10.99",
-        "monthly_price_cny": "CNY 73.16",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 6.59",
-        "monthly_price_cny": "CNY 43.87",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "SV": {
-    "name_cn": "萨尔瓦多",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 10.99",
-        "monthly_price_cny": "CNY 73.16",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 6.59",
-        "monthly_price_cny": "CNY 43.87",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "GD": {
-    "name_cn": "格林纳达",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "GY": {
-    "name_cn": "圭亚那",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "HT": {
-    "name_cn": "海地",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": "USD 133.99",
-        "annual_price_cny": "CNY 892.03"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "JM": {
-    "name_cn": "牙买加",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "KN": {
-    "name_cn": "圣基茨和尼维斯",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "LC": {
-    "name_cn": "圣卢西亚",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "VC": {
-    "name_cn": "圣文森特和格林纳丁斯",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "SR": {
-    "name_cn": "苏里南",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": "USD 133.99",
-        "annual_price_cny": "CNY 892.03"
-      },
-      {
-        "plan_name": "Extra Gebruiker",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "TT": {
-    "name_cn": "特立尼达和多巴哥",
-    "plans": [
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 15.99",
-        "monthly_price_cny": "CNY 106.45",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
+        "monthly_price_cny": "CNY 43.73",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -1225,7 +881,7 @@
         "plan_name": "Disney+ Standard with Ads",
         "currency_code": "CLP",
         "monthly_price_original": "CLP 8490",
-        "monthly_price_cny": "CNY 56.92",
+        "monthly_price_cny": "CNY 54.84",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -1233,7 +889,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "CLP",
         "monthly_price_original": "CLP 10990",
-        "monthly_price_cny": "CNY 73.69",
+        "monthly_price_cny": "CNY 70.98",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -1241,7 +897,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "CLP",
         "monthly_price_original": "CLP 15990",
-        "monthly_price_cny": "CNY 107.21",
+        "monthly_price_cny": "CNY 103.28",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -1249,123 +905,7 @@
         "plan_name": "Extra Member",
         "currency_code": "CLP",
         "monthly_price_original": "CLP 5940",
-        "monthly_price_cny": "CNY 39.83",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "CZ": {
-    "name_cn": "捷克",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "CZK",
-        "monthly_price_original": "CZK 219.00",
-        "monthly_price_cny": "CNY 66.83",
-        "annual_price_original": "CZK 2190.00",
-        "annual_price_cny": "CNY 668.30"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "CZK",
-        "monthly_price_original": "CZK 359.00",
-        "monthly_price_cny": "CNY 109.55",
-        "annual_price_original": "CZK 3590.00",
-        "annual_price_cny": "CNY 1095.53"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "CZK",
-        "monthly_price_original": "CZK 139.00",
-        "monthly_price_cny": "CNY 42.42",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "EC": {
-    "name_cn": "厄瓜多尔",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 11.49",
-        "monthly_price_cny": "CNY 76.49",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 16.99",
-        "monthly_price_cny": "CNY 113.11",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 6.49",
-        "monthly_price_cny": "CNY 43.21",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "GT": {
-    "name_cn": "危地马拉",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 11.49",
-        "monthly_price_cny": "CNY 76.49",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 16.99",
-        "monthly_price_cny": "CNY 113.11",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 6.49",
-        "monthly_price_cny": "CNY 43.21",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "HN": {
-    "name_cn": "洪都拉斯",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 11.49",
-        "monthly_price_cny": "CNY 76.49",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 16.99",
-        "monthly_price_cny": "CNY 113.11",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 6.49",
-        "monthly_price_cny": "CNY 43.21",
+        "monthly_price_cny": "CNY 38.37",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -1378,7 +918,7 @@
         "plan_name": "Disney+ Standard with Ads",
         "currency_code": "COP",
         "monthly_price_original": "COP 25900",
-        "monthly_price_cny": "CNY 54.49",
+        "monthly_price_cny": "CNY 48.96",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -1386,7 +926,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "COP",
         "monthly_price_original": "COP 36900",
-        "monthly_price_cny": "CNY 77.63",
+        "monthly_price_cny": "CNY 69.76",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -1394,7 +934,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "COP",
         "monthly_price_original": "COP 54900",
-        "monthly_price_cny": "CNY 115.51",
+        "monthly_price_cny": "CNY 103.78",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -1402,622 +942,475 @@
         "plan_name": "Extra Member",
         "currency_code": "COP",
         "monthly_price_original": "COP 18130",
-        "monthly_price_cny": "CNY 38.14",
+        "monthly_price_cny": "CNY 34.27",
         "annual_price_original": null,
         "annual_price_cny": null
       }
     ]
   },
-  "AD": {
-    "name_cn": "安道尔",
+  "AG": {
+    "name_cn": "安提瓜和巴布达",
     "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "AT": {
-    "name_cn": "奥地利",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      }
-    ]
-  },
-  "BE": {
-    "name_cn": "比利时",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "FR": {
-    "name_cn": "法国",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "DE": {
-    "name_cn": "德国",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "GR": {
-    "name_cn": "希腊",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "IE": {
-    "name_cn": "爱尔兰",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 8.99",
-        "monthly_price_cny": "CNY 67.03",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 11.99",
-        "monthly_price_cny": "CNY 89.40",
-        "annual_price_original": "EUR 119.90",
-        "annual_price_cny": "CNY 893.97"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "IT": {
-    "name_cn": "意大利",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "LU": {
-    "name_cn": "卢森堡",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "MT": {
-    "name_cn": "马耳他",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "MC": {
-    "name_cn": "摩纳哥",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "NL": {
-    "name_cn": "荷兰",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "PT": {
-    "name_cn": "葡萄牙",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "ES": {
-    "name_cn": "西班牙",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 10.99",
-        "monthly_price_cny": "CNY 81.94",
-        "annual_price_original": "EUR 109.90",
-        "annual_price_cny": "CNY 819.41"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 15.99",
-        "monthly_price_cny": "CNY 119.22",
-        "annual_price_original": "EUR 159.90",
-        "annual_price_cny": "CNY 1192.21"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "EUR",
-        "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "SG": {
-    "name_cn": "新加坡",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "SGD",
-        "monthly_price_original": "SGD 18.98",
-        "monthly_price_cny": "CNY 98.81",
-        "annual_price_original": "SGD 159.98",
-        "annual_price_cny": "CNY 832.85"
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "SGD",
-        "monthly_price_original": "SGD 22.98",
-        "monthly_price_cny": "CNY 119.63",
-        "annual_price_original": "SGD 189.98",
-        "annual_price_cny": "CNY 989.03"
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "SGD",
-        "monthly_price_original": "SGD 7.98",
-        "monthly_price_cny": "CNY 41.54",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "NI": {
-    "name_cn": "尼加拉瓜",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 12.49",
-        "monthly_price_cny": "CNY 83.15",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
-        "monthly_price_original": "USD 17.99",
-        "monthly_price_cny": "CNY 119.77",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
         "annual_price_original": null,
         "annual_price_cny": null
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "USD",
-        "monthly_price_original": "USD 7.49",
-        "monthly_price_cny": "CNY 49.86",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
         "annual_price_original": null,
         "annual_price_cny": null
       }
     ]
   },
-  "PA": {
-    "name_cn": "巴拿马",
+  "BS": {
+    "name_cn": "巴哈马",
     "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 12.49",
-        "monthly_price_cny": "CNY 83.15",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
-        "monthly_price_original": "USD 17.99",
-        "monthly_price_cny": "CNY 119.77",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
         "annual_price_original": null,
         "annual_price_cny": null
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "USD",
-        "monthly_price_original": "USD 7.49",
-        "monthly_price_cny": "CNY 49.86",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
         "annual_price_original": null,
         "annual_price_cny": null
       }
     ]
   },
-  "PY": {
-    "name_cn": "巴拉圭",
+  "BB": {
+    "name_cn": "巴巴多斯",
     "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 12.49",
-        "monthly_price_cny": "CNY 83.15",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
-        "monthly_price_original": "USD 17.99",
-        "monthly_price_cny": "CNY 119.77",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
         "annual_price_original": null,
         "annual_price_cny": null
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "USD",
-        "monthly_price_original": "USD 7.49",
-        "monthly_price_cny": "CNY 49.86",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
         "annual_price_original": null,
         "annual_price_cny": null
       }
     ]
   },
-  "VE": {
-    "name_cn": "委内瑞拉",
+  "BZ": {
+    "name_cn": "伯利兹",
     "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 12.49",
-        "monthly_price_cny": "CNY 83.15",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
-        "monthly_price_original": "USD 17.99",
-        "monthly_price_cny": "CNY 119.77",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
         "annual_price_original": null,
         "annual_price_cny": null
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "USD",
-        "monthly_price_original": "USD 7.49",
-        "monthly_price_cny": "CNY 49.86",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "DM": {
+    "name_cn": "多米尼克",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "DO": {
+    "name_cn": "多米尼加共和国",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.99",
+        "monthly_price_cny": "CNY 73.32",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.59",
+        "monthly_price_cny": "CNY 43.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SV": {
+    "name_cn": "萨尔瓦多",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 10.99",
+        "monthly_price_cny": "CNY 73.32",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.59",
+        "monthly_price_cny": "CNY 43.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GD": {
+    "name_cn": "格林纳达",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GY": {
+    "name_cn": "圭亚那",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "HT": {
+    "name_cn": "海地",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": "USD 133.99",
+        "annual_price_cny": "CNY 893.94"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "JM": {
+    "name_cn": "牙买加",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "KN": {
+    "name_cn": "圣基茨和尼维斯",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LC": {
+    "name_cn": "圣卢西亚",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "VC": {
+    "name_cn": "圣文森特和格林纳丁斯",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SR": {
+    "name_cn": "苏里南",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": "USD 133.99",
+        "annual_price_cny": "CNY 893.94"
+      },
+      {
+        "plan_name": "Extra Gebruiker",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "TT": {
+    "name_cn": "特立尼达和多巴哥",
+    "plans": [
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 15.99",
+        "monthly_price_cny": "CNY 106.68",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CZ": {
+    "name_cn": "捷克",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "CZK",
+        "monthly_price_original": "CZK 219.00",
+        "monthly_price_cny": "CNY 65.40",
+        "annual_price_original": "CZK 2190.00",
+        "annual_price_cny": "CNY 653.98"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "CZK",
+        "monthly_price_original": "CZK 359.00",
+        "monthly_price_cny": "CNY 107.21",
+        "annual_price_original": "CZK 3590.00",
+        "annual_price_cny": "CNY 1072.05"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "CZK",
+        "monthly_price_original": "CZK 139.00",
+        "monthly_price_cny": "CNY 41.51",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "EC": {
+    "name_cn": "厄瓜多尔",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 11.49",
+        "monthly_price_cny": "CNY 76.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 16.99",
+        "monthly_price_cny": "CNY 113.35",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.49",
+        "monthly_price_cny": "CNY 43.30",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GT": {
+    "name_cn": "危地马拉",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 11.49",
+        "monthly_price_cny": "CNY 76.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 16.99",
+        "monthly_price_cny": "CNY 113.35",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.49",
+        "monthly_price_cny": "CNY 43.30",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "HN": {
+    "name_cn": "洪都拉斯",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 11.49",
+        "monthly_price_cny": "CNY 76.66",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 16.99",
+        "monthly_price_cny": "CNY 113.35",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 6.49",
+        "monthly_price_cny": "CNY 43.30",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2030,7 +1423,7 @@
         "plan_name": "Disney+ Standard with Ads",
         "currency_code": "MXN",
         "monthly_price_original": "MXN 159",
-        "monthly_price_cny": "CNY 56.35",
+        "monthly_price_cny": "CNY 54.18",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2038,7 +1431,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "MXN",
         "monthly_price_original": "MXN 259",
-        "monthly_price_cny": "CNY 91.78",
+        "monthly_price_cny": "CNY 88.25",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2046,7 +1439,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "MXN",
         "monthly_price_original": "MXN 339",
-        "monthly_price_cny": "CNY 120.13",
+        "monthly_price_cny": "CNY 115.51",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2054,7 +1447,7 @@
         "plan_name": "Extra Member",
         "currency_code": "MXN",
         "monthly_price_original": "MXN 110",
-        "monthly_price_cny": "CNY 38.98",
+        "monthly_price_cny": "CNY 37.48",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2067,7 +1460,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "SEK",
         "monthly_price_original": "SEK 89.00",
-        "monthly_price_cny": "CNY 60.30",
+        "monthly_price_cny": "CNY 57.82",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2075,94 +1468,234 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "SEK",
         "monthly_price_original": "SEK 129.00",
-        "monthly_price_cny": "CNY 87.40",
+        "monthly_price_cny": "CNY 83.80",
         "annual_price_original": "SEK 1290.00",
-        "annual_price_cny": "CNY 873.99"
+        "annual_price_cny": "CNY 838.05"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "SEK",
         "monthly_price_original": "SEK 179.00",
-        "monthly_price_cny": "CNY 121.28",
+        "monthly_price_cny": "CNY 116.29",
         "annual_price_original": "SEK 1790.00",
-        "annual_price_cny": "CNY 1212.75"
+        "annual_price_cny": "CNY 1162.87"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "SEK",
         "monthly_price_original": "SEK 59.00",
-        "monthly_price_cny": "CNY 39.97",
+        "monthly_price_cny": "CNY 38.33",
         "annual_price_original": null,
         "annual_price_cny": null
       }
     ]
   },
-  "BO": {
-    "name_cn": "玻利维亚",
+  "AD": {
+    "name_cn": "安道尔",
     "plans": [
       {
         "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 12.49",
-        "monthly_price_cny": "CNY 83.15",
-        "annual_price_original": null,
-        "annual_price_cny": null
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
       },
       {
         "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 18.99",
-        "monthly_price_cny": "CNY 126.42",
-        "annual_price_original": null,
-        "annual_price_cny": null
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
       },
       {
         "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.49",
-        "monthly_price_cny": "CNY 49.86",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
         "annual_price_original": null,
         "annual_price_cny": null
       }
     ]
   },
-  "CR": {
-    "name_cn": "哥斯达黎加",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 13.99",
-        "monthly_price_cny": "CNY 93.14",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 18.99",
-        "monthly_price_cny": "CNY 126.42",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "FI": {
-    "name_cn": "芬兰",
+  "AT": {
+    "name_cn": "奥地利",
     "plans": [
       {
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "EUR",
-        "monthly_price_original": "EUR 7.99",
-        "monthly_price_cny": "CNY 59.57",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BE": {
+    "name_cn": "比利时",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "FR": {
+    "name_cn": "法国",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "DE": {
+    "name_cn": "德国",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "GR": {
+    "name_cn": "希腊",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IE": {
+    "name_cn": "爱尔兰",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 8.99",
+        "monthly_price_cny": "CNY 65.64",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2170,23 +1703,411 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 11.99",
-        "monthly_price_cny": "CNY 89.40",
+        "monthly_price_cny": "CNY 87.54",
         "annual_price_original": "EUR 119.90",
-        "annual_price_cny": "CNY 893.97"
+        "annual_price_cny": "CNY 875.38"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
-        "monthly_price_original": "EUR 16.99",
-        "monthly_price_cny": "CNY 126.68",
-        "annual_price_original": "EUR 169.90",
-        "annual_price_cny": "CNY 1266.77"
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 5.99",
-        "monthly_price_cny": "CNY 44.66",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "IT": {
+    "name_cn": "意大利",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "LU": {
+    "name_cn": "卢森堡",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MT": {
+    "name_cn": "马耳他",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "MC": {
+    "name_cn": "摩纳哥",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NL": {
+    "name_cn": "荷兰",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PT": {
+    "name_cn": "葡萄牙",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "ES": {
+    "name_cn": "西班牙",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 6.99",
+        "monthly_price_cny": "CNY 51.03",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 10.99",
+        "monthly_price_cny": "CNY 80.24",
+        "annual_price_original": "EUR 109.90",
+        "annual_price_cny": "CNY 802.37"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 15.99",
+        "monthly_price_cny": "CNY 116.74",
+        "annual_price_original": "EUR 159.90",
+        "annual_price_cny": "CNY 1167.41"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "SG": {
+    "name_cn": "新加坡",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "SGD",
+        "monthly_price_original": "SGD 18.98",
+        "monthly_price_cny": "CNY 98.02",
+        "annual_price_original": "SGD 159.98",
+        "annual_price_cny": "CNY 826.24"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "SGD",
+        "monthly_price_original": "SGD 22.98",
+        "monthly_price_cny": "CNY 118.68",
+        "annual_price_original": "SGD 189.98",
+        "annual_price_cny": "CNY 981.18"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "SGD",
+        "monthly_price_original": "SGD 7.98",
+        "monthly_price_cny": "CNY 41.21",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "NI": {
+    "name_cn": "尼加拉瓜",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 83.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 120.02",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.49",
+        "monthly_price_cny": "CNY 49.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PA": {
+    "name_cn": "巴拿马",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 83.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 120.02",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.49",
+        "monthly_price_cny": "CNY 49.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "PY": {
+    "name_cn": "巴拉圭",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 83.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 120.02",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.49",
+        "monthly_price_cny": "CNY 49.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "VE": {
+    "name_cn": "委内瑞拉",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 83.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 120.02",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.49",
+        "monthly_price_cny": "CNY 49.97",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2199,7 +2120,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "NOK",
         "monthly_price_original": "NOK 89.00",
-        "monthly_price_cny": "CNY 64.34",
+        "monthly_price_cny": "CNY 60.24",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2207,23 +2128,118 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "NOK",
         "monthly_price_original": "NOK 129.00",
-        "monthly_price_cny": "CNY 93.26",
+        "monthly_price_cny": "CNY 87.31",
         "annual_price_original": "NOK 1290.00",
-        "annual_price_cny": "CNY 932.62"
+        "annual_price_cny": "CNY 873.14"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "NOK",
         "monthly_price_original": "NOK 179.00",
-        "monthly_price_cny": "CNY 129.41",
+        "monthly_price_cny": "CNY 121.16",
         "annual_price_original": "NOK 1790.00",
-        "annual_price_cny": "CNY 1294.10"
+        "annual_price_cny": "CNY 1211.57"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "NOK",
         "monthly_price_original": "NOK 59.00",
-        "monthly_price_cny": "CNY 42.65",
+        "monthly_price_cny": "CNY 39.93",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "FI": {
+    "name_cn": "芬兰",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 7.99",
+        "monthly_price_cny": "CNY 58.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 11.99",
+        "monthly_price_cny": "CNY 87.54",
+        "annual_price_original": "EUR 119.90",
+        "annual_price_cny": "CNY 875.38"
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 16.99",
+        "monthly_price_cny": "CNY 124.04",
+        "annual_price_original": "EUR 169.90",
+        "annual_price_cny": "CNY 1240.42"
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "EUR",
+        "monthly_price_original": "EUR 5.99",
+        "monthly_price_cny": "CNY 43.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "BO": {
+    "name_cn": "玻利维亚",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 12.49",
+        "monthly_price_cny": "CNY 83.33",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 18.99",
+        "monthly_price_cny": "CNY 126.70",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.49",
+        "monthly_price_cny": "CNY 49.97",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "CR": {
+    "name_cn": "哥斯达黎加",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 13.99",
+        "monthly_price_cny": "CNY 93.34",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 18.99",
+        "monthly_price_cny": "CNY 126.70",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2236,7 +2252,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 5.99",
-        "monthly_price_cny": "CNY 53.42",
+        "monthly_price_cny": "CNY 52.27",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2244,23 +2260,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 9.99",
-        "monthly_price_cny": "CNY 89.10",
+        "monthly_price_cny": "CNY 87.18",
         "annual_price_original": "GBP 99.90",
-        "annual_price_cny": "CNY 891.00"
+        "annual_price_cny": "CNY 871.81"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 14.99",
-        "monthly_price_cny": "CNY 133.69",
+        "monthly_price_cny": "CNY 130.81",
         "annual_price_original": "GBP 149.90",
-        "annual_price_cny": "CNY 1336.95"
+        "annual_price_cny": "CNY 1308.15"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 4.99",
-        "monthly_price_cny": "CNY 44.51",
+        "monthly_price_cny": "CNY 43.55",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2273,23 +2289,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 11.99",
-        "monthly_price_cny": "CNY 89.40",
+        "monthly_price_cny": "CNY 87.54",
         "annual_price_original": "EUR 119.90",
-        "annual_price_cny": "CNY 893.97"
+        "annual_price_cny": "CNY 875.38"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 17.99",
-        "monthly_price_cny": "CNY 134.13",
+        "monthly_price_cny": "CNY 131.34",
         "annual_price_original": "EUR 179.90",
-        "annual_price_cny": "CNY 1341.33"
+        "annual_price_cny": "CNY 1313.43"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "EUR",
         "monthly_price_original": "EUR 6.99",
-        "monthly_price_cny": "CNY 52.12",
+        "monthly_price_cny": "CNY 51.03",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2302,7 +2318,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 6.99",
-        "monthly_price_cny": "CNY 62.34",
+        "monthly_price_cny": "CNY 61.00",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2310,23 +2326,23 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 11.99",
-        "monthly_price_cny": "CNY 106.94",
+        "monthly_price_cny": "CNY 104.63",
         "annual_price_original": "GBP 119.90",
-        "annual_price_cny": "CNY 1069.38"
+        "annual_price_cny": "CNY 1046.34"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 15.99",
-        "monthly_price_cny": "CNY 142.61",
+        "monthly_price_cny": "CNY 139.54",
         "annual_price_original": "GBP 159.90",
-        "annual_price_cny": "CNY 1426.13"
+        "annual_price_cny": "CNY 1395.41"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "GBP",
         "monthly_price_original": "GBP 4.99",
-        "monthly_price_cny": "CNY 44.51",
+        "monthly_price_cny": "CNY 43.55",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2339,7 +2355,7 @@
         "plan_name": "Disney+, Hulu Bundle",
         "currency_code": "USD",
         "monthly_price_original": "USD 12.99",
-        "monthly_price_cny": "CNY 86.48",
+        "monthly_price_cny": "CNY 86.67",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2347,7 +2363,7 @@
         "plan_name": "Disney+, Hulu Bundle Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 21.99",
-        "monthly_price_cny": "CNY 146.40",
+        "monthly_price_cny": "CNY 146.71",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2355,7 +2371,7 @@
         "plan_name": "Disney+, Hulu, Espn Select Bundle",
         "currency_code": "USD",
         "monthly_price_original": "USD 21.99",
-        "monthly_price_cny": "CNY 146.40",
+        "monthly_price_cny": "CNY 146.71",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2363,7 +2379,7 @@
         "plan_name": "Disney+, Hulu, Espn Select Bundle Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 32.99",
-        "monthly_price_cny": "CNY 219.63",
+        "monthly_price_cny": "CNY 220.10",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2371,7 +2387,7 @@
         "plan_name": "Disney+ Premium, Hulu, Espn Select Bundle Legacy",
         "currency_code": "USD",
         "monthly_price_original": "USD 27.99",
-        "monthly_price_cny": "CNY 186.34",
+        "monthly_price_cny": "CNY 186.74",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2379,7 +2395,7 @@
         "plan_name": "Disney+, Hulu, Espn Unlimited Bundle",
         "currency_code": "USD",
         "monthly_price_original": "USD 35.99",
-        "monthly_price_cny": "CNY 239.60",
+        "monthly_price_cny": "CNY 240.11",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2387,7 +2403,7 @@
         "plan_name": "Disney+, Hulu, Espn Unlimited Bundle Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 44.99",
-        "monthly_price_cny": "CNY 299.52",
+        "monthly_price_cny": "CNY 300.16",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2395,7 +2411,7 @@
         "plan_name": "Disney+, Hulu, Hbo Max Bundle (With Ads)",
         "currency_code": "USD",
         "monthly_price_original": "USD 21.99",
-        "monthly_price_cny": "CNY 146.40",
+        "monthly_price_cny": "CNY 146.71",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2403,7 +2419,7 @@
         "plan_name": "Disney+, Hulu, Hbo Max Bundle (No Ads)",
         "currency_code": "USD",
         "monthly_price_original": "USD 34.99",
-        "monthly_price_cny": "CNY 232.94",
+        "monthly_price_cny": "CNY 233.44",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2411,7 +2427,7 @@
         "plan_name": "Disney+",
         "currency_code": "USD",
         "monthly_price_original": "USD 12.49",
-        "monthly_price_cny": "CNY 83.15",
+        "monthly_price_cny": "CNY 83.33",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2419,15 +2435,15 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 21.49",
-        "monthly_price_cny": "CNY 143.07",
+        "monthly_price_cny": "CNY 143.37",
         "annual_price_original": "USD 214.99",
-        "annual_price_cny": "CNY 1431.27"
+        "annual_price_cny": "CNY 1434.35"
       },
       {
         "plan_name": "Disney+, Hulu, Espn Unlimited Bundle With Nfl+ Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 45.99",
-        "monthly_price_cny": "CNY 306.17",
+        "monthly_price_cny": "CNY 306.83",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2435,7 +2451,7 @@
         "plan_name": "Disney+, Hulu, Espn Unlimited Bundle Premium With Nfl+ Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 54.99",
-        "monthly_price_cny": "CNY 366.09",
+        "monthly_price_cny": "CNY 366.88",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2443,7 +2459,7 @@
         "plan_name": "Extra Member",
         "currency_code": "USD",
         "monthly_price_original": "USD 6.99",
-        "monthly_price_cny": "CNY 46.54",
+        "monthly_price_cny": "CNY 46.64",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2451,44 +2467,7 @@
         "plan_name": "Espn Unlimited",
         "currency_code": "USD",
         "monthly_price_original": "USD 31.99",
-        "monthly_price_cny": "CNY 212.97",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      }
-    ]
-  },
-  "AU": {
-    "name_cn": "澳大利亚",
-    "plans": [
-      {
-        "plan_name": "Disney+ Standard With Ads",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 9.99",
-        "monthly_price_cny": "CNY 66.51",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Standard",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 17.99",
-        "monthly_price_cny": "CNY 119.77",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Disney+ Premium",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 24.99",
-        "monthly_price_cny": "CNY 166.37",
-        "annual_price_original": null,
-        "annual_price_cny": null
-      },
-      {
-        "plan_name": "Extra Member",
-        "currency_code": "USD",
-        "monthly_price_original": "USD 7.99",
-        "monthly_price_cny": "CNY 53.19",
+        "monthly_price_cny": "CNY 213.43",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2501,7 +2480,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "DKK",
         "monthly_price_original": "DKK 79.00",
-        "monthly_price_cny": "CNY 78.53",
+        "monthly_price_cny": "CNY 77.17",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2509,23 +2488,60 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "DKK",
         "monthly_price_original": "DKK 119.00",
-        "monthly_price_cny": "CNY 118.29",
+        "monthly_price_cny": "CNY 116.24",
         "annual_price_original": "DKK 1190.00",
-        "annual_price_cny": "CNY 1182.89"
+        "annual_price_cny": "CNY 1162.38"
       },
       {
         "plan_name": "Disney+ Premium",
         "currency_code": "DKK",
         "monthly_price_original": "DKK 169.00",
-        "monthly_price_cny": "CNY 167.99",
+        "monthly_price_cny": "CNY 165.08",
         "annual_price_original": "DKK 1690.00",
-        "annual_price_cny": "CNY 1679.91"
+        "annual_price_cny": "CNY 1650.77"
       },
       {
         "plan_name": "Extra Member",
         "currency_code": "DKK",
         "monthly_price_original": "DKK 49.00",
-        "monthly_price_cny": "CNY 48.71",
+        "monthly_price_cny": "CNY 47.86",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      }
+    ]
+  },
+  "AU": {
+    "name_cn": "澳大利亚",
+    "plans": [
+      {
+        "plan_name": "Disney+ Standard With Ads",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 9.99",
+        "monthly_price_cny": "CNY 66.65",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Standard",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 17.99",
+        "monthly_price_cny": "CNY 120.02",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Disney+ Premium",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 24.99",
+        "monthly_price_cny": "CNY 166.73",
+        "annual_price_original": null,
+        "annual_price_cny": null
+      },
+      {
+        "plan_name": "Extra Member",
+        "currency_code": "USD",
+        "monthly_price_original": "USD 7.99",
+        "monthly_price_cny": "CNY 53.31",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2538,7 +2554,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "USD",
         "monthly_price_original": "USD 9.99",
-        "monthly_price_cny": "CNY 66.51",
+        "monthly_price_cny": "CNY 66.65",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2546,7 +2562,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "USD",
         "monthly_price_original": "USD 18.99",
-        "monthly_price_cny": "CNY 126.42",
+        "monthly_price_cny": "CNY 126.70",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2554,7 +2570,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 25.99",
-        "monthly_price_cny": "CNY 173.03",
+        "monthly_price_cny": "CNY 173.40",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2562,7 +2578,7 @@
         "plan_name": "Extra Member",
         "currency_code": "USD",
         "monthly_price_original": "USD 8.99",
-        "monthly_price_cny": "CNY 59.85",
+        "monthly_price_cny": "CNY 59.98",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2575,7 +2591,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 16.90",
-        "monthly_price_cny": "CNY 136.57",
+        "monthly_price_cny": "CNY 135.14",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2583,7 +2599,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 23.40",
-        "monthly_price_cny": "CNY 189.09",
+        "monthly_price_cny": "CNY 187.11",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2591,7 +2607,7 @@
         "plan_name": "Extra Member",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 8.90",
-        "monthly_price_cny": "CNY 71.92",
+        "monthly_price_cny": "CNY 71.17",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2604,7 +2620,7 @@
         "plan_name": "Disney+ Standard With Ads",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 9.90",
-        "monthly_price_cny": "CNY 80.00",
+        "monthly_price_cny": "CNY 79.16",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2612,7 +2628,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 16.90",
-        "monthly_price_cny": "CNY 136.57",
+        "monthly_price_cny": "CNY 135.14",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2620,7 +2636,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 23.40",
-        "monthly_price_cny": "CNY 189.09",
+        "monthly_price_cny": "CNY 187.11",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2628,7 +2644,7 @@
         "plan_name": "Extra Member",
         "currency_code": "CHF",
         "monthly_price_original": "CHF 7.90",
-        "monthly_price_cny": "CNY 63.84",
+        "monthly_price_cny": "CNY 63.17",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2641,7 +2657,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "USD",
         "monthly_price_original": "USD 12.99",
-        "monthly_price_cny": "CNY 86.48",
+        "monthly_price_cny": "CNY 86.67",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2649,7 +2665,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "USD",
         "monthly_price_original": "USD 31.49",
-        "monthly_price_cny": "CNY 209.64",
+        "monthly_price_cny": "CNY 210.09",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2657,7 +2673,7 @@
         "plan_name": "Extra Member",
         "currency_code": "USD",
         "monthly_price_original": "USD 7.49",
-        "monthly_price_cny": "CNY 49.86",
+        "monthly_price_cny": "CNY 49.97",
         "annual_price_original": null,
         "annual_price_cny": null
       }
@@ -2670,7 +2686,7 @@
         "plan_name": "Disney+ Standard",
         "currency_code": "PEN",
         "monthly_price_original": "PEN 4990",
-        "monthly_price_cny": "CNY 9609.92",
+        "monthly_price_cny": "CNY 9633.14",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2678,7 +2694,7 @@
         "plan_name": "Disney+ Premium",
         "currency_code": "PEN",
         "monthly_price_original": "PEN 6890",
-        "monthly_price_cny": "CNY 13269.01",
+        "monthly_price_cny": "CNY 13301.07",
         "annual_price_original": null,
         "annual_price_cny": null
       },
@@ -2686,7 +2702,7 @@
         "plan_name": "Extra Member",
         "currency_code": "PEN",
         "monthly_price_original": "PEN 2990",
-        "monthly_price_cny": "CNY 5758.25",
+        "monthly_price_cny": "CNY 5772.16",
         "annual_price_original": null,
         "annual_price_cny": null
       }
