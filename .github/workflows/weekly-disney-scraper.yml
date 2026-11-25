@@ -17,7 +17,7 @@ env:
 
 jobs:
   scrape-and-update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 60
     
     steps:
@@ -27,7 +27,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.9'
+        python-version: '3.12'
         
     - name: Cache pip dependencies
       uses: actions/cache@v4
@@ -101,6 +101,8 @@ jobs:
                 print('❌ Chromium executable NOT found')
         "
         # 运行爬虫
+        # Require a fresh raw scrape instead of a checked-in snapshot.
+        rm -f disneyplus_prices.json
         python -u disney.py
         echo "scraper_status=success" >> $GITHUB_OUTPUT
 
@@ -129,6 +131,8 @@ jobs:
         API_KEY: ${{ secrets.API_KEY }}
       run: |
         echo "开始汇率转换..."
+        # Require this run to produce a new converted file.
+        rm -f disneyplus_prices_processed.json
         python disney_rate_converter.py
         echo "converter_status=success" >> $GITHUB_OUTPUT
         
